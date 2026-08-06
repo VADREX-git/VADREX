@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# The Windows batch entry points must be CRLF. cmd.exe mishandles labels and multi-line blocks
+# in an LF-only batch file, which is what a fresh clone gets when core.autocrlf is false.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Reference measurements are preserved byte for byte. Normalising line endings would change the
+# SHA-256 of a cloned file and break verification against SHA256SUMS.
+eval/reference/** -text

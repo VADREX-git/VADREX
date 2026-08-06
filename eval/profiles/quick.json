@@ -1,0 +1,13 @@
+{
+  "name": "quick",
+  "description": "Reduced run for checking the installation and the pipeline. Not a source of paper numbers.",
+  "mode": "quick",
+  "repeats": 2,
+  "env": {},
+  "expect": {
+    "requireZeroFailures": true,
+    "requireScalingVerified": true,
+    "requireFigures": true,
+    "requireCleanTree": false
+  }
+}

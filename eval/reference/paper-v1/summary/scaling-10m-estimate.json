@@ -1,0 +1,11 @@
+{
+  "targetLeaves": 10000000,
+  "includedInRun": false,
+  "explicitOptIn": false,
+  "maxMeasuredLeaves": 1000000,
+  "measuredTreeBuildMs": 23379,
+  "estimatedTreeBuildMs": 233790,
+  "estimatedPreimageBytes": 948888900,
+  "estimatedLeafHashStringBytes": 660000000,
+  "note": "10^7 leaves were not executed; estimate is linear from the largest measured tree build and excludes JS object overhead."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@vadrex/verifier-cli",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "vadrex-verify": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --config vitest.config.ts --passWithNoTests"
+  },
+  "dependencies": {
+    "@vadrex/merkle": "0.1.0",
+    "ethers": "^6.13.2",
+    "@vadrex/shared": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

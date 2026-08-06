@@ -1,0 +1,132 @@
+# Fixed project name so container and volume names do not depend on the clone directory;
+# the scripts address services by those names.
+name: vadrex
+
+x-gateway-image: &gateway-image
+  build:
+    context: .
+    dockerfile: docker/Dockerfile.gateway
+    target: gateway
+  image: vadrex-gateway:local
+  working_dir: /app
+
+services:
+  chain:
+    # The chain uses a target that contains only contracts/. Its image must stay unchanged when
+    # application source or docs change, otherwise compose recreates the container, the in-memory
+    # chain returns to block 0 and the deployed contracts are gone.
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.gateway
+      target: chain
+    image: vadrex-chain:local
+    working_dir: /app
+    ports:
+      # Research stack: bind to loopback only.
+      - "127.0.0.1:8545:8545"
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('net').connect(8545,'127.0.0.1').on('connect',function(){process.exit(0)}).on('error',function(){process.exit(1)})"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+
+  orthanc-a:
+    image: orthancteam/orthanc@sha256:83a1f988c9790a8ec018d00bad2d23d29703313e10ec59ecbeb827b5fa8e0aee
+    environment:
+      DICOM_WEB_PLUGIN_ENABLED: "true"
+    ports:
+      - "127.0.0.1:8042:8042"
+    volumes:
+      - ./config/orthanc-a:/etc/orthanc:ro
+      - ./scripts/out/inst-a:/run/secrets/orthanc:ro
+      - orthanc-a-storage:/var/lib/orthanc/db
+    command: /etc/orthanc
+
+  orthanc-b:
+    image: orthancteam/orthanc@sha256:83a1f988c9790a8ec018d00bad2d23d29703313e10ec59ecbeb827b5fa8e0aee
+    environment:
+      DICOM_WEB_PLUGIN_ENABLED: "true"
+    ports:
+      - "127.0.0.1:8043:8042"
+    volumes:
+      - ./config/orthanc-b:/etc/orthanc:ro
+      - ./scripts/out/inst-b:/run/secrets/orthanc:ro
+      - orthanc-b-storage:/var/lib/orthanc/db
+    command: /etc/orthanc
+
+  gateway-a:
+    <<: *gateway-image
+    ports:
+      - "127.0.0.1:7001:7001"
+    environment:
+      INSTITUTION_ID: "A"
+      PEER_INSTITUTION_ID: "B"
+      PORT: "7001"
+      GATEWAY_TLS_ENABLED: "${GATEWAY_TLS_ENABLED:-true}"
+      ANCHOR_INTERVAL_SEC: "${ANCHOR_INTERVAL_SEC:-30}"
+      ANCHOR_MAX_INTERVAL_SEC: "${ANCHOR_MAX_INTERVAL_SEC:-30}"
+      AUTH_TOKEN_TTL_SEC: "${AUTH_TOKEN_TTL_SEC:-60}"
+      RECEIPT_TIMEOUT_SEC: "${RECEIPT_TIMEOUT_SEC:-30}"
+      DICOM_MAX_BODY_BYTES: "${DICOM_MAX_BODY_BYTES:-67108864}"
+      CHAIN_RPC_URL: "http://chain:8545"
+      PEER_BASE_URL: "https://gateway-b:7002"
+      ORTHANC_BASE_URL: "https://orthanc-a:8042"
+      # Guard for the /dev/* injection and manual-anchor endpoints. Enabled here because the
+      # demos and the evaluation harness depend on them. Never enable in a deployment.
+      ENABLE_DEV_ENDPOINTS: "${ENABLE_DEV_ENDPOINTS:-true}"
+    volumes:
+      # Audit databases and the deployment file live on the host: the evaluation harness and the
+      # reset procedure open them directly by host path.
+      - ./data:/app/data
+      # Each institution mounts only its own keys, read-only, and exposes just one public key to
+      # the peer. Institutions never share private keys.
+      - ./scripts/out/inst-a:/app/scripts/out/inst-a:ro
+      - ./scripts/out/inst-b/ed25519.pub:/app/scripts/out/inst-b/ed25519.pub:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('net').connect(7001,'127.0.0.1').on('connect',function(){process.exit(0)}).on('error',function(){process.exit(1)})"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+    depends_on:
+      chain:
+        condition: service_healthy
+      orthanc-a:
+        condition: service_started
+
+  gateway-b:
+    <<: *gateway-image
+    ports:
+      - "127.0.0.1:7002:7002"
+    environment:
+      INSTITUTION_ID: "B"
+      PEER_INSTITUTION_ID: "A"
+      PORT: "7002"
+      GATEWAY_TLS_ENABLED: "${GATEWAY_TLS_ENABLED:-true}"
+      ANCHOR_INTERVAL_SEC: "${ANCHOR_INTERVAL_SEC:-30}"
+      ANCHOR_MAX_INTERVAL_SEC: "${ANCHOR_MAX_INTERVAL_SEC:-30}"
+      AUTH_TOKEN_TTL_SEC: "${AUTH_TOKEN_TTL_SEC:-60}"
+      RECEIPT_TIMEOUT_SEC: "${RECEIPT_TIMEOUT_SEC:-30}"
+      SIMULATED_RECEIPT_DELAY_MS: "${SIMULATED_RECEIPT_DELAY_MS:-0}"
+      DICOM_MAX_BODY_BYTES: "${DICOM_MAX_BODY_BYTES:-67108864}"
+      CHAIN_RPC_URL: "http://chain:8545"
+      PEER_BASE_URL: "https://gateway-a:7001"
+      ORTHANC_BASE_URL: "https://orthanc-b:8042"
+      ENABLE_DEV_ENDPOINTS: "${ENABLE_DEV_ENDPOINTS:-true}"
+    volumes:
+      - ./data:/app/data
+      - ./scripts/out/inst-b:/app/scripts/out/inst-b:ro
+      - ./scripts/out/inst-a/ed25519.pub:/app/scripts/out/inst-a/ed25519.pub:ro
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('net').connect(7002,'127.0.0.1').on('connect',function(){process.exit(0)}).on('error',function(){process.exit(1)})"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+    depends_on:
+      chain:
+        condition: service_healthy
+      orthanc-b:
+        condition: service_started
+
+volumes:
+  orthanc-a-storage:
+  orthanc-b-storage:

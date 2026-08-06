@@ -1,0 +1,60 @@
+﻿{
+    "state":  "completed",
+    "mode":  "full",
+    "phase":  "finished",
+    "processId":  39532,
+    "exitCode":  0,
+    "startedAt":  "2026-08-06T02:19:07.1570224+09:00",
+    "finishedAt":  "2026-08-06T14:01:20.3711614+09:00",
+    "durationSeconds":  42133.214,
+    "summaryIntervalMinutes":  12,
+    "dockerIssues":  [
+
+                     ],
+    "diagnosticSignalCount":  0,
+    "results":  {
+                    "files":  6,
+                    "rows":  360,
+                    "ok":  240,
+                    "failed":  0,
+                    "waiting":  0,
+                    "skipped":  0,
+                    "undetected":  0,
+                    "missingFiles":  [
+
+                                     ]
+                },
+    "paths":  {
+                  "stdout":  "C:\\VADREX\\eval\\out\\2026-08-05T17-19-05-156Z-paper\\logs\\full-test.log",
+                  "stderr":  "C:\\VADREX\\eval\\out\\2026-08-05T17-19-05-156Z-paper\\logs\\full-test-error.log",
+                  "failureContext":  "C:\\VADREX\\eval\\out\\2026-08-05T17-19-05-156Z-paper\\logs\\failure-context.log"
+              },
+    "verdict":  "pass",
+    "verdictReasons":  [
+
+                       ],
+    "verifiedAt":  "2026-08-06T14:01:38.0591490+09:00",
+    "profile":  "paper",
+    "checked":  {
+                    "totalRows":  360,
+                    "rowsByFile":  {
+                                       "scaling.json":  120,
+                                       "revocation_delay.json":  40,
+                                       "handshake_overhead.json":  30,
+                                       "verify_cost.json":  40,
+                                       "grace_window.json":  40,
+                                       "attack_injection.json":  90
+                                   },
+                    "failed":  0,
+                    "waiting":  0,
+                    "skipped":  0,
+                    "undetected":  0,
+                    "scalingUnverified":  0,
+                    "attackLabels":  {
+                                         "S1":  4,
+                                         "S2":  3,
+                                         "S3":  2
+                                     },
+                    "trackedFilesChanged":  0
+                }
+}

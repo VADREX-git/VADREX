@@ -1,0 +1,26 @@
+{
+  "name": "@vadrex/gateway",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "start:dev": "tsx src/index.ts",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@vadrex/merkle": "0.1.0",
+    "@vadrex/shared": "0.1.0",
+    "better-sqlite3": "^11.1.2",
+    "ethers": "^6.13.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

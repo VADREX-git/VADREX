@@ -1,0 +1,5 @@
+anchorIntervalSec,metric,count,mean,stddev,median,min,max
+10,observedDelayMs,10,10160.8,4045.766,9599.5,5116,15172
+30,observedDelayMs,10,17074.5,8001.642,15909,6756,30989
+60,observedDelayMs,10,43304.4,16679.904,48987,11459,61808
+300,observedDelayMs,10,117928.9,73637.849,105460,9536,299648

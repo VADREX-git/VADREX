@@ -1,0 +1,33 @@
+node_modules/
+dist/
+coverage/
+typechain-types/
+cache/
+artifacts/
+scripts/out/
+data/**/*.db
+data/**/*.db-*
+data/deployments.local.json
+*.log
+.env
+eval/out/
+eval/plot/.venv/
+__pycache__/
+*.pyc
+
+# Runtime leftovers. Tracking these trips the dirty-tree gate of a paper run.
+# SQLite sidecars appear as soon as a database is opened, so they are matched by suffix:
+# data/**/*.db-* alone misses names such as audit.db.step3-legacy.bak-shm.
+data/**/*-wal
+data/**/*-shm
+data/**/*.bak
+data/reset-backup-*/
+data/.reset-backup-path.tmp
+
+# Local tooling and working directories
+.claude/
+output/
+tmp/
+
+# Bootstrap run status
+reproduce-status.json

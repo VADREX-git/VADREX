@@ -1,0 +1,47 @@
+﻿{
+    "profile":  "paper",
+    "verdict":  "pass",
+    "verdictReasons":  [
+
+                       ],
+    "watchdogState":  "completed",
+    "watchdogExitCode":  0,
+    "startedAt":  "2026-08-06T02:19:07.0676124+09:00",
+    "finishedAt":  "2026-08-06T14:01:38.0765945+09:00",
+    "durationSeconds":  42151,
+    "source":  {
+                   "commit":  "a2d5a6a8201b3c8b4b0a40cb66b090b9c69cd0d0",
+                   "treeHash":  "0b236aa12143d0c323675f91e85c83eb1ddd7d85",
+                   "cleanTree":  true,
+                   "dirtyFileCount":  0
+               },
+    "profileSha256":  "f473792cf93bc19660388cbe8baf2776c680fab22accd4cc4a31147d11f8b761",
+    "packageLockSha256":  "09152b2e4c0a8f3cd0db92d744a7ad20a5db118c9e7c8d6a0dd2deaa15642e1c",
+    "composeSha256":  "6f56c82aca87ab1bae6b3819506c0acc0a82216bb20f7a044a4c9f1219e49196",
+    "checked":  {
+                    "totalRows":  360,
+                    "rowsByFile":  {
+                                       "scaling.json":  120,
+                                       "revocation_delay.json":  40,
+                                       "handshake_overhead.json":  30,
+                                       "verify_cost.json":  40,
+                                       "grace_window.json":  40,
+                                       "attack_injection.json":  90
+                                   },
+                    "failed":  0,
+                    "waiting":  0,
+                    "skipped":  0,
+                    "undetected":  0,
+                    "scalingUnverified":  0,
+                    "attackLabels":  {
+                                         "S1":  4,
+                                         "S2":  3,
+                                         "S3":  2
+                                     },
+                    "trackedFilesChanged":  0
+                },
+    "anchorContracts":  {
+                            "A":  "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+                            "B":  "0x8464135c8F25Da09e49BC8782676a84730C318bC"
+                        }
+}

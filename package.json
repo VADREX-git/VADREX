@@ -1,0 +1,51 @@
+{
+  "name": "vadrex-proto",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "VADREX research prototype monorepo",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "packages/*",
+    "contracts"
+  ],
+  "scripts": {
+    "build": "npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle && npm run build -w @vadrex/gateway && npm run build -w @vadrex/verifier-cli && npm run build -w @vadrex/contracts",
+    "test": "npm run test --workspaces --if-present && npm run test:eval",
+    "keygen": "tsx scripts/keygen.ts",
+    "test:shared": "npm run test -w @vadrex/shared",
+    "test:merkle": "npm run test -w @vadrex/merkle",
+    "test:gateway": "npm run test -w @vadrex/gateway",
+    "test:contracts": "npm run test -w @vadrex/contracts",
+    "test:eval": "vitest run --config eval/vitest.config.ts",
+    "contracts:compile": "npm run compile -w @vadrex/contracts",
+    "contracts:deploy": "npm run deploy -w @vadrex/contracts",
+    "contracts:smoke": "npm run smoke -w @vadrex/contracts",
+    "gateway:inject": "tsx scripts/inject-audit-events.ts",
+    "gateway:inject-violation": "tsx scripts/inject-violation.ts",
+    "demo:completeness": "tsx scripts/demo-completeness.ts",
+    "demo:non-transfer": "tsx scripts/demo-non-transfer.ts",
+    "scenario:normal": "tsx scripts/scenario-normal.ts",
+    "scenario:violations": "tsx scripts/scenario-violations.ts",
+    "demo:concealment": "tsx scripts/demo-concealment.ts",
+    "demo:timeout": "tsx scripts/demo-timeout.ts",
+    "scenario:barrier": "tsx scripts/scenario-barrier.ts",
+    "e2e:compliant": "npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle && npm run build -w @vadrex/verifier-cli && tsx scripts/e2e-compliant.ts",
+    "e2e:violation": "npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle && npm run build -w @vadrex/verifier-cli && tsx scripts/e2e-violation.ts",
+    "e2e:dispute": "npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle && npm run build -w @vadrex/verifier-cli && tsx scripts/e2e-dispute.ts",
+    "e2e:receiptless-claim": "npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle && npm run build -w @vadrex/verifier-cli && tsx scripts/e2e-receiptless-claim.ts",
+    "eval:local": "tsx eval/src/run-local.ts",
+    "eval:quick": "tsx eval/src/run-local.ts --mode quick",
+    "eval:full": "tsx eval/src/run-local.ts --mode full"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

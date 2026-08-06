@@ -1,0 +1,33 @@
+# The set of files that take part in a reproduction. eval/reference/source-hash.ps1 computes
+# sourceTreeHash from this list.
+#
+# What is deliberately absent (LICENSE, CITATION, README, REPRODUCIBILITY, docs/,
+# THIRD_PARTY_NOTICES, .gitignore, .gitattributes) has no bearing on whether these results came
+# from this code, so the licence, the documentation and the author line can change later without
+# forcing the reference results to be regenerated.
+#
+# One entry per line. A directory includes every tracked file under it. Lines starting with '#'
+# are comments.
+
+packages
+contracts
+config
+docker
+scripts
+eval/src
+eval/test
+eval/profiles
+eval/preflight.ps1
+eval/full-test-watch.ps1
+eval/run-local.ps1
+
+# eval/plot and eval/run-plots.ps1 are excluded: they read the CSV that has already been
+# produced and cannot change a single measured row. The results this hash speaks for are the rows
+# under raw/ and summary/; the integrity of the figure files themselves is covered by SHA256SUMS.
+docker-compose.yml
+package.json
+package-lock.json
+tsconfig.base.json
+vitest.config.ts
+reproduce.cmd
+evaluate.cmd

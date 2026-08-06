@@ -1,0 +1,10 @@
+property,attackType,attempts,detections,detectionRate,meanDetectionMs
+S1,past-log-tamper,10,10,1,0.26
+S1,log-entry-omission,10,10,1,0.127
+S1,tree-size-regression-revert,10,10,1,38903.983
+S2,seq-k-plus-one,10,10,1,185998.825
+S2,seq-skip-k-plus-seven,10,10,1,185998.825
+S2,logtree-only-no-head-update,10,10,1,185998.825
+S3,receiver-denial,10,10,1,128461.314
+S1,post-anchor-completion-entry-deletion,10,10,1,46913.475
+S3,no-timely-anchored-completion-pair,10,10,1,133571.161

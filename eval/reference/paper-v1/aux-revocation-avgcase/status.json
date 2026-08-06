@@ -1,0 +1,32 @@
+﻿{
+    "state":  "completed",
+    "mode":  "full",
+    "phase":  "finished",
+    "processId":  49560,
+    "exitCode":  0,
+    "startedAt":  "2026-08-06T14:03:01.0774347+09:00",
+    "finishedAt":  "2026-08-06T15:14:13.8946040+09:00",
+    "durationSeconds":  4272.817,
+    "summaryIntervalMinutes":  12,
+    "dockerIssues":  [
+
+                     ],
+    "diagnosticSignalCount":  0,
+    "results":  {
+                    "files":  1,
+                    "rows":  40,
+                    "ok":  40,
+                    "failed":  0,
+                    "waiting":  0,
+                    "skipped":  0,
+                    "undetected":  0,
+                    "missingFiles":  [
+
+                                     ]
+                },
+    "paths":  {
+                  "stdout":  "C:\\VADREX\\eval\\out\\2026-08-06T05-03-00-006Z-aux-revocation-avgcase\\logs\\full-test.log",
+                  "stderr":  "C:\\VADREX\\eval\\out\\2026-08-06T05-03-00-006Z-aux-revocation-avgcase\\logs\\full-test-error.log",
+                  "failureContext":  "C:\\VADREX\\eval\\out\\2026-08-06T05-03-00-006Z-aux-revocation-avgcase\\logs\\failure-context.log"
+              }
+}

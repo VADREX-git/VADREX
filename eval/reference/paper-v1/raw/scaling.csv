@@ -1,0 +1,121 @@
+mode,repeat,logicalLeaves,proofType,proofBytes,proofHashes,verifyMs,verified,smtInsertedKeys,note
+full,1,1000,inclusion,753,10,0.287,true,,
+full,1,1000,consistency,688,9,0.295,true,,
+full,1,1000,smtNonInclusion,17791,256,3.103,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,2,1000,inclusion,753,10,0.248,true,,
+full,2,1000,consistency,688,9,0.259,true,,
+full,2,1000,smtNonInclusion,17791,256,3.638,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,3,1000,inclusion,753,10,0.142,true,,
+full,3,1000,consistency,688,9,0.173,true,,
+full,3,1000,smtNonInclusion,17791,256,3.506,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,4,1000,inclusion,753,10,0.202,true,,
+full,4,1000,consistency,688,9,0.167,true,,
+full,4,1000,smtNonInclusion,17791,256,3.376,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,5,1000,inclusion,753,10,0.235,true,,
+full,5,1000,consistency,688,9,0.161,true,,
+full,5,1000,smtNonInclusion,17791,256,3.167,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,6,1000,inclusion,753,10,0.141,true,,
+full,6,1000,consistency,688,9,0.212,true,,
+full,6,1000,smtNonInclusion,17791,256,4.227,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,7,1000,inclusion,753,10,0.13,true,,
+full,7,1000,consistency,688,9,0.148,true,,
+full,7,1000,smtNonInclusion,17791,256,4.16,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,8,1000,inclusion,753,10,0.121,true,,
+full,8,1000,consistency,688,9,0.152,true,,
+full,8,1000,smtNonInclusion,17791,256,2.848,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,9,1000,inclusion,753,10,0.118,true,,
+full,9,1000,consistency,688,9,0.137,true,,
+full,9,1000,smtNonInclusion,17791,256,2.751,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,10,1000,inclusion,753,10,0.129,true,,
+full,10,1000,consistency,688,9,0.198,true,,
+full,10,1000,smtNonInclusion,17791,256,2.984,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,1,10000,inclusion,1031,14,0.214,true,,
+full,1,10000,consistency,897,12,0.17,true,,
+full,1,10000,smtNonInclusion,17791,256,2.863,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,2,10000,inclusion,1031,14,0.155,true,,
+full,2,10000,consistency,897,12,0.153,true,,
+full,2,10000,smtNonInclusion,17791,256,3.599,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,3,10000,inclusion,1031,14,0.16,true,,
+full,3,10000,consistency,897,12,0.173,true,,
+full,3,10000,smtNonInclusion,17791,256,3.242,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,4,10000,inclusion,1031,14,0.172,true,,
+full,4,10000,consistency,897,12,0.165,true,,
+full,4,10000,smtNonInclusion,17791,256,2.785,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,5,10000,inclusion,1031,14,0.224,true,,
+full,5,10000,consistency,897,12,0.182,true,,
+full,5,10000,smtNonInclusion,17791,256,3.248,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,6,10000,inclusion,1031,14,0.148,true,,
+full,6,10000,consistency,897,12,0.157,true,,
+full,6,10000,smtNonInclusion,17791,256,2.731,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,7,10000,inclusion,1031,14,0.183,true,,
+full,7,10000,consistency,897,12,0.181,true,,
+full,7,10000,smtNonInclusion,17791,256,2.85,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,8,10000,inclusion,1031,14,0.207,true,,
+full,8,10000,consistency,897,12,0.187,true,,
+full,8,10000,smtNonInclusion,17791,256,3.552,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,9,10000,inclusion,1031,14,0.16,true,,
+full,9,10000,consistency,897,12,0.155,true,,
+full,9,10000,smtNonInclusion,17791,256,2.734,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,10,10000,inclusion,1031,14,0.208,true,,
+full,10,10000,consistency,897,12,0.239,true,,
+full,10,10000,smtNonInclusion,17791,256,3.582,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,1,100000,inclusion,1240,17,0.353,true,,
+full,1,100000,consistency,1037,14,0.367,true,,
+full,1,100000,smtNonInclusion,17791,256,2.865,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,2,100000,inclusion,1240,17,0.19,true,,
+full,2,100000,consistency,1037,14,0.191,true,,
+full,2,100000,smtNonInclusion,17791,256,2.971,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,3,100000,inclusion,1240,17,0.235,true,,
+full,3,100000,consistency,1037,14,0.184,true,,
+full,3,100000,smtNonInclusion,17791,256,2.836,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,4,100000,inclusion,1240,17,0.234,true,,
+full,4,100000,consistency,1037,14,0.229,true,,
+full,4,100000,smtNonInclusion,17791,256,3.774,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,5,100000,inclusion,1240,17,0.202,true,,
+full,5,100000,consistency,1037,14,0.187,true,,
+full,5,100000,smtNonInclusion,17791,256,2.995,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,6,100000,inclusion,1240,17,0.199,true,,
+full,6,100000,consistency,1037,14,0.189,true,,
+full,6,100000,smtNonInclusion,17791,256,3.473,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,7,100000,inclusion,1240,17,0.226,true,,
+full,7,100000,consistency,1037,14,0.27,true,,
+full,7,100000,smtNonInclusion,17791,256,2.827,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,8,100000,inclusion,1240,17,0.192,true,,
+full,8,100000,consistency,1037,14,0.196,true,,
+full,8,100000,smtNonInclusion,17791,256,3.262,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,9,100000,inclusion,1240,17,0.196,true,,
+full,9,100000,consistency,1037,14,0.195,true,,
+full,9,100000,smtNonInclusion,17791,256,2.718,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,10,100000,inclusion,1240,17,0.189,true,,
+full,10,100000,consistency,1037,14,0.186,true,,
+full,10,100000,smtNonInclusion,17791,256,2.687,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,1,1000000,inclusion,1449,20,0.318,true,,
+full,1,1000000,consistency,1177,16,0.31,true,,
+full,1,1000000,smtNonInclusion,17791,256,2.753,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,2,1000000,inclusion,1449,20,0.273,true,,
+full,2,1000000,consistency,1177,16,0.283,true,,
+full,2,1000000,smtNonInclusion,17791,256,2.913,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,3,1000000,inclusion,1449,20,0.202,true,,
+full,3,1000000,consistency,1177,16,0.199,true,,
+full,3,1000000,smtNonInclusion,17791,256,2.47,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,4,1000000,inclusion,1449,20,0.194,true,,
+full,4,1000000,consistency,1177,16,0.197,true,,
+full,4,1000000,smtNonInclusion,17791,256,3.158,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,5,1000000,inclusion,1449,20,0.207,true,,
+full,5,1000000,consistency,1177,16,0.199,true,,
+full,5,1000000,smtNonInclusion,17791,256,2.403,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,6,1000000,inclusion,1449,20,0.198,true,,
+full,6,1000000,consistency,1177,16,0.201,true,,
+full,6,1000000,smtNonInclusion,17791,256,2.455,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,7,1000000,inclusion,1449,20,0.197,true,,
+full,7,1000000,consistency,1177,16,0.651,true,,
+full,7,1000000,smtNonInclusion,17791,256,3.066,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,8,1000000,inclusion,1449,20,0.259,true,,
+full,8,1000000,consistency,1177,16,0.229,true,,
+full,8,1000000,smtNonInclusion,17791,256,2.698,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,9,1000000,inclusion,1449,20,0.265,true,,
+full,9,1000000,consistency,1177,16,0.386,true,,
+full,9,1000000,smtNonInclusion,17791,256,2.725,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.
+full,10,1000000,inclusion,1449,20,0.269,true,,
+full,10,1000000,consistency,1177,16,0.232,true,,
+full,10,1000000,smtNonInclusion,17791,256,2.667,true,1,SMT depth is fixed at 256; logicalLeaves is used for side-by-side plotting.

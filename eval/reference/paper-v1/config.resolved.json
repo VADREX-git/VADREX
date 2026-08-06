@@ -1,0 +1,49 @@
+﻿{
+    "profile":  "paper",
+    "profileDescription":  "Reproduces the paper evaluation: full-mode defaults (repeats=10, the complete set of scales, intervals, anchor counts and study sizes), about 10.7 hours as measured. The six measurement groups run sequentially in a fixed order; verify-cost and grace depend on accumulated anchor state, so they must not be reordered or run in parallel.",
+    "mode":  "full",
+    "repeats":  10,
+    "profileEnv":  {
+
+                   },
+    "resolvedEnv":  {
+                        "EVAL_LOG_SIZES":  "(unset - built-in default)",
+                        "EVAL_ANCHOR_INTERVALS":  "(unset - built-in default)",
+                        "EVAL_ANCHOR_COUNTS":  "(unset - built-in default)",
+                        "EVAL_STUDY_SIZES":  "(unset - built-in default)",
+                        "EVAL_INCLUDE_10M":  "(unset - built-in default)",
+                        "EVAL_REVOCATION_RANDOM_OFFSET":  "(unset - built-in default)",
+                        "EVAL_SKIP_DOCKER":  "(unset - built-in default)",
+                        "ANCHOR_INTERVAL_SEC":  "(unset - built-in default)",
+                        "ANCHOR_MAX_INTERVAL_SEC":  "(unset - built-in default)",
+                        "RECEIPT_TIMEOUT_SEC":  "(unset - built-in default)",
+                        "DICOM_MAX_BODY_BYTES":  "(unset - built-in default)"
+                    },
+    "expect":  {
+                   "totalRows":  360,
+                   "rowsByFile":  {
+                                      "scaling.json":  120,
+                                      "revocation_delay.json":  40,
+                                      "handshake_overhead.json":  30,
+                                      "verify_cost.json":  40,
+                                      "grace_window.json":  40,
+                                      "attack_injection.json":  90
+                                  },
+                   "requireZeroFailures":  true,
+                   "requireScalingVerified":  true,
+                   "attackLabels":  {
+                                        "S1":  4,
+                                        "S2":  3,
+                                        "S3":  2
+                                    },
+                   "requireFigures":  true,
+                   "requireCleanTree":  true
+               },
+    "source":  {
+                   "commit":  "a2d5a6a8201b3c8b4b0a40cb66b090b9c69cd0d0",
+                   "treeHash":  "0b236aa12143d0c323675f91e85c83eb1ddd7d85",
+                   "cleanTree":  true,
+                   "dirtyFileCount":  0
+               },
+    "startedAt":  "2026-08-06T02:19:07.0676124+09:00"
+}

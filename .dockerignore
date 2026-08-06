@@ -1,0 +1,26 @@
+# Images carry source and dependency manifests only.
+# Keys, audit databases and evaluation output arrive as runtime mounts.
+node_modules
+**/node_modules
+.git
+.github
+.claude
+.agents
+
+# Runtime state (provided by mounts)
+data
+scripts/out
+eval/out
+output
+tmp
+
+# Build output (regenerated inside the image)
+**/dist
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+eval/plot/.venv
+__pycache__
+*.pyc
+*.log
+reproduce-status.json

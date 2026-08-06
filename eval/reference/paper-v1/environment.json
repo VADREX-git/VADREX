@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-08-05T17:19:21.972Z",
+  "platform": "win32",
+  "release": "10.0.26200",
+  "cpuModel": "11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz",
+  "cpuCount": 16,
+  "totalMemoryBytes": 34131542016,
+  "freeMemoryBytes": 11991314432,
+  "nodeVersion": "v20.16.0",
+  "npmVersion": null,
+  "gitCommit": "a2d5a6a8201b3c8b4b0a40cb66b090b9c69cd0d0",
+  "gitStatusShort": "",
+  "evalMode": "full",
+  "repeats": 10,
+  "skipDocker": false,
+  "measures": [
+    "scaling",
+    "revocation-delay",
+    "handshake",
+    "verify-cost",
+    "grace",
+    "attack"
+  ]
+}

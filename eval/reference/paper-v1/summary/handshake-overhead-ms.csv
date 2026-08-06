@@ -1,0 +1,4 @@
+studySizeLabel,metric,count,mean,stddev,median,min,max
+small,overheadMs,10,738.897,78.823,712.968,633.713,904.665
+medium,overheadMs,10,1199.529,123.877,1225.106,997.841,1421.072
+large,overheadMs,10,2542.284,233.034,2506.601,2149.567,2872.527

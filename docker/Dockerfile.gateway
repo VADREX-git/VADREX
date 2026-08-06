@@ -1,0 +1,38 @@
+# Shared dependency layer for chain and gateway, plus one target per service.
+#
+# Installing dependencies once here, with npm ci against the lockfile, replaces an npm install on
+# every container start: that was both slow and unpinned.
+#
+# The gateway still runs through tsx. Switching to node dist/index.js would change the conditions
+# under which the paper's handshake overhead was measured, so only the packaging changed.
+
+# ------------------------------------------------------------- dependency layer
+FROM node@sha256:8f693eaa7e0a8e71560c9a82b55fd54c2ae920a2ba5d2cde28bac7d1c01c9ba5 AS deps
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+COPY packages/shared/package.json packages/shared/package.json
+COPY packages/merkle/package.json packages/merkle/package.json
+COPY packages/gateway/package.json packages/gateway/package.json
+COPY packages/verifier-cli/package.json packages/verifier-cli/package.json
+COPY contracts/package.json contracts/package.json
+RUN npm ci
+
+# ------------------------------------------------------------------------ chain
+# The chain needs only hardhat and contracts/. Application source is kept out on purpose: if the
+# image changed whenever source or documentation changed, compose would recreate the chain
+# container, and since Hardhat runs in memory the chain would return to block 0 and take the
+# deployed contracts with it.
+FROM deps AS chain
+# contracts/tsconfig.json extends the root tsconfig.base.json, so that file comes along.
+COPY tsconfig.base.json ./
+COPY contracts ./contracts
+CMD ["npm", "run", "node", "-w", "@vadrex/contracts"]
+
+# ---------------------------------------------------------------------- gateway
+FROM deps AS gateway
+COPY . .
+# The two packages the gateway depends on are built here so startup does not run tsc.
+RUN npm run build -w @vadrex/shared && npm run build -w @vadrex/merkle
+CMD ["npm", "run", "start:dev", "-w", "@vadrex/gateway"]

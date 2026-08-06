@@ -1,0 +1,32 @@
+{
+  "Name": "VADREX Orthanc B",
+  "StorageDirectory": "/var/lib/orthanc/db",
+  "IndexDirectory": "/var/lib/orthanc/db",
+  "Plugins": ["/usr/share/orthanc/plugins"],
+  "HttpServerEnabled": true,
+  "HttpPort": 8042,
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
+  "SslEnabled": true,
+  "SslCertificate": "/run/secrets/orthanc/tls.pem",
+  "SslVerifyPeers": true,
+  "SslTrustedClientCertificates": "/run/secrets/orthanc/ca.cert.pem",
+  "DicomServerEnabled": true,
+  "DicomAet": "VADREXB",
+  "DicomPort": 4242,
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/",
+    "EnableWado": true,
+    "Ssl": true,
+    "Servers": {
+      "orthanc-a": {
+        "Url": "https://orthanc-a:8042/dicom-web/",
+        "CertificateFile": "/run/secrets/orthanc/cert.pem",
+        "CertificateKeyFile": "/run/secrets/orthanc/key.pem",
+        "CertificateKeyPassword": "",
+        "Pkcs11": false
+      }
+    }
+  }
+}
