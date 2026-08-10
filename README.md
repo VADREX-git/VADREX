@@ -13,6 +13,12 @@ Two properties are implemented and demonstrated:
    signs the peer's log entry hash and records it in its own log, so a third party can adjudicate a
    "we sent it" / "we never received it" dispute from ordinary anchoring alone.
 
+![VADREX system architecture](docs/vadrex-system-architecture.png)
+
+Each institution keeps its own append-only log tree and sparse Merkle tree, and anchors both roots
+periodically to its own contract. The patient verifier reads those anchors over RPC and rechecks
+every proof locally, so it never has to trust a gateway's answer.
+
 > **Research prototype — not for clinical or production use.** See [Security model](#security-model).
 
 ## Quickstart
