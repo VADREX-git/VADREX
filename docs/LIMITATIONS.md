@@ -3,8 +3,32 @@
 What the implementation and the measurements do and do not establish. Read this before citing a
 number or restating a security claim.
 
-None of the items below are defects in the Merkle constructions or the verifier logic. They are
-scope boundaries and measurement-methodology limits.
+The items below state the implemented verification scope and the measurement-methodology limits.
+They distinguish checks on anchored records from claims about when a physical transfer occurred.
+
+## S2: anchored revocation finality and the receiver baseline
+
+The retained `{seq=k, entryHash}` identifies an anchored revocation entry, not an authenticated
+revocation-request or receipt time. The provider check establishes that this entry is terminal in
+the consent chain within the checked anchored history. Delaying the revocation record, omitting a
+transfer from the outset, or transferring outside the gateway is not excluded by that result.
+
+Receiver checks start with anchors at or after the provider's revocation-anchor time plus the
+configured grace period. They require a consistently absent head or the same included head across
+those eligible anchors; an included head must name a receive entry for the consent with `seq<k`.
+The receiver accepts a provider-supplied sequence only if it exceeds its own last sequence, but
+does not establish that the referenced approval was anchored by the provider before revocation.
+If a receive omitted from the provider log uses an accepted `seq<k` and is already in the first
+eligible receiver anchor, unchanged later heads can pass even when the receiver honestly recorded
+the receive. That baseline does not distinguish a pre-revocation receive from a later one.
+
+An idle receiver does not create an anchor without new log entries; a configured interval alone
+therefore does not establish a fresh baseline or bound the wait for it. No eligible anchor yields
+`waiting`. The separate case of receiver log/SMT inconsistency is also outside the receiver check,
+which does not reconstruct its complete log. Applying that reconstruction would address the
+inconsistency, but would not by itself establish the timing of a receive already at the baseline.
+Non-collusion and honest receive logging do not remove these limits. The historical CLI command
+and success message are unchanged; their interpretation is the bounded check described here.
 
 ## 1. Non-repudiation (S3) is bounded, and unrecorded concealment cannot be attributed
 

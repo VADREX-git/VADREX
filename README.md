@@ -6,9 +6,12 @@ system and regenerates the paper's measurements.
 
 Two properties are implemented and demonstrated:
 
-1. **Proof of non-transfer after revocation.** Per-institution append-only Merkle log trees
-   (RFC 6962) plus a versioned Sparse Merkle Tree let a patient verify, against on-chain anchors
-   alone, that no event for a consent exists after its revocation.
+1. **Anchored revocation finality.** Append-only Merkle logs (RFC 6962) and a versioned
+   Sparse Merkle Tree let a patient check that the retained revocation entry is terminal in the
+   provider's anchored consent history. Receiver checks compare heads from the first eligible
+   anchor onward. This does not authenticate the request time or prove the absence of physical
+   transfers; even a recorded receive can escape detection at the receiver baseline
+   ([S2 limits](docs/LIMITATIONS.md#s2-anchored-revocation-finality-and-the-receiver-baseline)).
 2. **Non-repudiation of cross-institution log references.** In the transfer handshake each gateway
    signs the peer's log entry hash and records it in its own log, so a third party can adjudicate a
    "we sent it" / "we never received it" dispute from ordinary anchoring alone.
@@ -122,9 +125,11 @@ always pins its own synthetic study, so it is deterministic regardless of what e
 packages/shared          canonical JSON, hashing, audit entry types
 packages/merkle          RFC 6962 log tree + versioned Sparse Merkle Tree (pure verifiers)
 packages/gateway         audit aggregator, anchoring loop, transfer handshake, HTTP API
-packages/verifier-cli    patient non-transfer verification and dispute adjudication
+packages/verifier-cli    patient verification (verify-non-transfer) and dispute adjudication
 contracts                Anchor.sol, tests, deploy script
 eval                     measurement harness, profiles, plotting
+eval/revision            supplementary compute/end-to-end timing and gas harness
+eval/reference           paper dataset (paper-v1) and supplementary run results
 scripts                  bootstrap, key/CA generation, scenarios, demos
 docs                     protocol contract, architecture, limitations
 ```
@@ -140,6 +145,9 @@ Orthanc A `8042`, Orthanc B `8043`, Gateway A `7001`, Gateway B `7002`, chain RP
   serialization, Merkle contracts, on-chain record, handshake order, verifier trust boundary.
 - [docs/LIMITATIONS.md](docs/LIMITATIONS.md) — what the measurements do and do not establish. Read
   this before citing any number.
+- [eval/revision/README.md](eval/revision/README.md) — the supplementary harness that separates
+  local verification compute time from end-to-end scenario time and measures contract gas, with its
+  measurement boundaries and published runs.
 
 ## Security model
 
