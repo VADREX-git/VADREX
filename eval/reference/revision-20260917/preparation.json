@@ -1,0 +1,13 @@
+{
+  "source": "C:\\VADREX",
+  "target": "C:\\VADREX\\eval\\out\\revision-20260917\\workspace",
+  "originalFilesChanged": false,
+  "project": "vadrex-revision-20260917",
+  "ports": {
+    "rpc": 18545,
+    "gatewayA": 17001,
+    "gatewayB": 17002,
+    "orthancA": 18042,
+    "orthancB": 18043
+  }
+}

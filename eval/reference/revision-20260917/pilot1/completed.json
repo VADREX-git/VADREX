@@ -1,0 +1,9 @@
+{
+  "completed": "2026-09-17T04:25:40.567Z",
+  "rows": 9,
+  "allExpected": true,
+  "finalAnchors": {
+    "a": 12,
+    "b": 4
+  }
+}

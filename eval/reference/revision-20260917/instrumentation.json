@@ -1,0 +1,57 @@
+{
+  "note": "Reconstructed on 2026-09-19 from the preserved run workspace and tool snapshot; the 2026-09-17 run predates this manifest. The repository sources under source-hashes.json were unchanged (provenance-check.json).",
+  "toolVersion": "pre-parameterization snapshot of eval/revision as run on 2026-09-17",
+  "byteIdenticalToPublishedTool": [
+    "gas.ts",
+    "timing.test.ts",
+    "timing.ts",
+    "verify-timing-cli.ts"
+  ],
+  "changedInPublishedTool": [
+    "capture-state.ts",
+    "check-provenance.ts",
+    "prepare.ts",
+    "README.md",
+    "run.ts",
+    "summarize.ts",
+    "config.ts (new)"
+  ],
+  "tool": {
+    "eval/revision/capture-state.ts": "f3ed2390e854d36eb39defce186af084e30d688c85003f058d020d9a92f0bfb7",
+    "eval/revision/check-provenance.ts": "4602cd7684dc80c94d9d3ff73282f36d118ea8a6f1c7503d743b1c6ab870ea97",
+    "eval/revision/gas.ts": "2c449a2057cc376ef7914e9242b23e558f126b9e058db4deff09a35852e2b036",
+    "eval/revision/prepare.ts": "f8c795c0890f918cb0cfa198d4916f9e77e5079e4a5cae058772fd249666a58d",
+    "eval/revision/README.md": "b252551e974572471e85341b266f7f71a2151b7907f19ac72eedeca23ccf41f3",
+    "eval/revision/run.ts": "28d9507fd4c83c5d7d5833a68ba97af3d655e8e25ddba1cedd82ea6196eb8658",
+    "eval/revision/summarize.ts": "8ccc0d1ea474f9b291f12304a150ce5725e27e7ea78a430f23f4d70ea3bb859a",
+    "eval/revision/timing.test.ts": "e4bfb69dc948871936fc8f4f03960e713956c74683bb71e619b829aa610893db",
+    "eval/revision/timing.ts": "4f96dd848ec1700ced1912ff05dca7664eb7420286d515a0c51eb67a23698c47",
+    "eval/revision/verify-timing-cli.ts": "168bbb2a78c6efc907c0c86a86ab55c42497fd7c65ff5551f5fde204361651d2"
+  },
+  "workspace": {
+    "docker-compose.yml": {
+      "repository": "6f56c82aca87ab1bae6b3819506c0acc0a82216bb20f7a044a4c9f1219e49196",
+      "patched": "c41cca4852ed04fb4d0518b42da7390cf27c53a89f0b03286581644abc42da83"
+    },
+    "contracts/hardhat.config.ts": {
+      "repository": "6656b126e7c326c1f3fdd496a37a764e4336d0241865ec10dddeea65e36190a7",
+      "patched": "71d92b0b0a7509c0f375fdae89dde9cb216cc3d32a1eaefccb10c01ee188897e"
+    },
+    "scripts/e2e-violation.ts": {
+      "repository": "cd6672d8c4f6d4a21b7e60ecf5339a6735cd5049e13caeb86db5bc76b1277849",
+      "patched": "1b354850ad56dbb6f7062a4fe731d19813db98341f5923f2c1d0b667f8465c1d"
+    },
+    "scripts/e2e-dispute.ts": {
+      "repository": "fe0d55b88e51283feb41379d344fb62434366385bb37da1cbd7f4121c19a1f88",
+      "patched": "82b318422ebde5e2884a4ce99797d452a1c30f9771a618214e2aaa3a1062d199"
+    },
+    "scripts/e2e-receiptless-claim.ts": {
+      "repository": "e2d48c344c7e1d36e538333720d949c9ab654f278dd76e066ab080caa139be1c",
+      "patched": "847108aa3033ce719866369f0f5a776c2f44a6e40be0c307144882b56fb254a1"
+    },
+    "scripts/demo-concealment.ts": {
+      "repository": "1a5c453b88dc7dbf2bd4efa16dba975f2d64956474fcca353babb611aac09476",
+      "patched": "6333cbc3a9656e0aa3b0153e0f763b0d4ff7db92904eb901925c9892ecea4ac4"
+    }
+  }
+}

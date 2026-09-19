@@ -1,0 +1,19 @@
+{
+  "source": "C:\\VADREX-public",
+  "target": "C:\\VADREX-public\\eval\\out\\revision-20260919\\workspace",
+  "originalFilesChanged": false,
+  "runId": "20260919",
+  "project": "vadrex-revision-20260919",
+  "portOffset": 20000,
+  "ports": {
+    "rpc": 28545,
+    "gatewayA": 27001,
+    "gatewayB": 27002,
+    "orthancA": 28042,
+    "orthancB": 28043
+  },
+  "images": {
+    "gateway": "vadrex-revision-20260919-gateway:local",
+    "chain": "vadrex-revision-20260919-chain:local"
+  }
+}

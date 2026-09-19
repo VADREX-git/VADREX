@@ -237,6 +237,13 @@ Do not compare across profiles or across different starting anchor states. In pa
 the same code measured with ~40 accumulated anchors and with ~1,600 differs by two orders of
 magnitude. `config.resolved.json` records the state each run started from.
 
+The supplementary runs under `eval/reference/revision-*` are separate from the `paper` profile: they
+split local verification compute time from end-to-end scenario time for the nine violation
+conditions and measure contract gas, on a much smaller accumulated state. Each has its own
+`PROVENANCE.md` with the conditions, anchor and leaf counts, and `SHA256SUMS`. Compare them with
+each other, not with `paper-v1`; [eval/revision/README.md](eval/revision/README.md) states the
+measurement boundaries and how to repeat a run.
+
 Read [docs/LIMITATIONS.md](docs/LIMITATIONS.md) before citing any number.
 
 ## 9. Troubleshooting

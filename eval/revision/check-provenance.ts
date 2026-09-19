@@ -1,0 +1,23 @@
+import { createHash } from 'node:crypto';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { spawnSync } from 'node:child_process';
+import assert from 'node:assert/strict';
+import { outputDir } from './config.js';
+const root=resolve('.');
+const out=outputDir(root);
+const sha=(path:string)=>createHash('sha256').update(readFileSync(path)).digest('hex');
+const original=JSON.parse(readFileSync(join(out,'source-hashes.json'),'utf8'));
+const changed=Object.entries(original).filter(([name,value])=>sha(join(root,name))!==value).map(([name])=>name);
+const program=`const fs=require('fs'),c=require('crypto'),p=require('path'); const out={};
+function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=p.join(d,e.name);if(e.isDirectory())walk(f);else if(/\\.(ts|js|json)$/.test(f))out[f]=c.createHash('sha256').update(fs.readFileSync(f)).digest('hex');}}
+for(const pkg of ['shared','merkle','gateway'])for(const folder of ['src','dist']){const d='packages/'+pkg+'/'+folder;if(fs.existsSync(d))walk(d);}process.stdout.write(JSON.stringify(out));`;
+const result=spawnSync('docker',['compose','exec','-T','gateway-b','node','-e',program],{cwd:join(out,'workspace'),encoding:'utf8'});
+assert.equal(result.status,0,result.stderr);
+const image=JSON.parse(result.stdout);
+const imageMismatch=Object.entries(image).filter(([name,value])=>!existsSync(join(root,name))||sha(join(root,name))!==value).map(([name])=>name);
+const verification={originalFilesChecked:Object.keys(original).length,originalChanged:changed,imageFilesChecked:Object.keys(image).length,imageMismatch};
+writeFileSync(join(out,'provenance-check.json'),JSON.stringify(verification,null,2));
+assert.deepEqual(changed,[],'production source changed');
+assert.deepEqual(imageMismatch,[],'image differs from checked source');
+console.log(JSON.stringify(verification));

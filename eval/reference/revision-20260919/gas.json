@@ -1,0 +1,271 @@
+{
+  "node": "v20.16.0",
+  "hardhat": "2.28.6",
+  "network": "hardhat",
+  "chainId": "31337",
+  "compiler": "0.8.20+commit.a1b79de6",
+  "compilerSettings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    }
+  },
+  "artifactBytecodeLength": 3710,
+  "rows": [
+    {
+      "repeat": 1,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 1,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 1,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 2,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 2,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 2,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 3,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 3,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 3,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 4,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 4,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 4,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 5,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 5,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 5,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 6,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 6,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 6,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 7,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 7,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 7,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 8,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 8,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 8,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 9,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 9,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 9,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    },
+    {
+      "repeat": 10,
+      "operation": "deploy",
+      "estimatedGas": 444021,
+      "gasUsed": 444021
+    },
+    {
+      "repeat": 10,
+      "operation": "first-anchor",
+      "treeSize": 1,
+      "root": "0x8b6df56ad255e1a83ab37aedee7d70c8fdb5a7da5c6c8fb4575b581056a74d42",
+      "map": "0x37835f761d3bd4357d5c6507672058695b0ff803fc1ac7f6e2d7894536d3e9e6",
+      "estimatedGas": 160481,
+      "gasUsed": 160481
+    },
+    {
+      "repeat": 10,
+      "operation": "subsequent-anchor",
+      "treeSize": 2,
+      "root": "0x0966555f96a18b624578009ef6b1314c03be3baed2dc2d559b9378757e40a8d7",
+      "map": "0x7676c64ed9644d5fec9bf76093b6e897b9f56ac0a24de861b40f50aaade3b2ad",
+      "estimatedGas": 143369,
+      "gasUsed": 143369
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+function rebuildRoot(db: Database.Database, treeSize: number): { root: string; leafCount: number } {
+  const rows = db
+    .prepare("SELECT leafIndex, canonicalBytes FROM audit_entries WHERE leafIndex < ? ORDER BY leafIndex ASC")
+    .all(treeSize) as { leafIndex: number; canonicalBytes: Buffer }[];
+  const tree = new Rfc6962LogTree();
+  for (const row of rows) {
+    tree.appendLeaf(new Uint8Array(row.canonicalBytes));
+  }
+  return { root: tree.currentRoot(), leafCount: rows.length };
+}

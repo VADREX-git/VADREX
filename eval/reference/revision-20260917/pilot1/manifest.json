@@ -1,0 +1,23 @@
+{
+  "label": "pilot1",
+  "repeats": 1,
+  "start": "2026-09-17T04:23:47.356Z",
+  "node": "v20.16.0",
+  "initialAnchors": {
+    "a": 1,
+    "b": 1
+  },
+  "statePolicy": "isolated cumulative history; no reset between repeats",
+  "studyPixelBytes": 262144,
+  "anchorIntervalSec": 30,
+  "receiptTimeoutSec": 30,
+  "lateReceipt": {
+    "timeoutSec": 5,
+    "delayMs": 10000
+  },
+  "graceSecInAttack": 0,
+  "computeDefinition": "active verifier elapsed segments excluding GatewayClient.tryGet and AnchorReader RPC methods (including TLS file reads and response-envelope decode); canonical entry parse, hash, proof, signature, log reconstruction and executed verdict logic included",
+  "buildExcluded": true,
+  "originalDataset": "paper-v1",
+  "purpose": "separate supplementary timing run"
+}

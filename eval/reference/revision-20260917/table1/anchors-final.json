@@ -1,0 +1,1115 @@
+{
+  "description": "Read-only RPC snapshot after all timed trials; includes historical treeSize for each before/after batch.",
+  "anchors": {
+    "A": [
+      {
+        "batchId": 1,
+        "rootHash": "0x4df3c0fb220a75c1d8a4350d088da286b6ce7300890083eaa0e58dad7309fc30",
+        "treeSize": 2,
+        "mapRoot": "0x676ef35a67e42048d9e2850535e631ab9db35255a4bf4b6c659558807c87f9ab",
+        "anchoredAt": 1789619019
+      },
+      {
+        "batchId": 2,
+        "rootHash": "0x5395144ceadf155ad53b8317ab3a9c82e659072597792aec843b0e2347fbca15",
+        "treeSize": 3,
+        "mapRoot": "0x676ef35a67e42048d9e2850535e631ab9db35255a4bf4b6c659558807c87f9ab",
+        "anchoredAt": 1789619028
+      },
+      {
+        "batchId": 3,
+        "rootHash": "0x62ed9696fbbd4661ad7a3439292460bd03b8ddaa594a22d1ce09dca6ef0b150b",
+        "treeSize": 4,
+        "mapRoot": "0x676ef35a67e42048d9e2850535e631ab9db35255a4bf4b6c659558807c87f9ab",
+        "anchoredAt": 1789619039
+      },
+      {
+        "batchId": 4,
+        "rootHash": "0x49f642d2a236b761072a6af0bd17a90f96eb2dadbbffafa84bfd01b0acc9cec0",
+        "treeSize": 6,
+        "mapRoot": "0x7dffcace60bfffa40fa7eac0596a8628d44c9fe87e8db85ac81ac5cd0199899f",
+        "anchoredAt": 1789619044
+      },
+      {
+        "batchId": 5,
+        "rootHash": "0xed9a087c6e30ec4830b7522c07140beee9661d095dd6251da9e6d4cec37820ca",
+        "treeSize": 7,
+        "mapRoot": "0xc2e9b145f67f29bba5543b5ec3c9b012aa9058ef8758e51325128501626562e9",
+        "anchoredAt": 1789619055
+      },
+      {
+        "batchId": 6,
+        "rootHash": "0x56eae826e4403413b19fdbcf37093740fee2b785d68119cd8c5039eb9051cdcb",
+        "treeSize": 9,
+        "mapRoot": "0x52c46ca7ab77f60ba08bf8f93ab043e787020f93e6ed39d84a277ea6fdf2e123",
+        "anchoredAt": 1789619061
+      },
+      {
+        "batchId": 7,
+        "rootHash": "0xd247449d0e9ef5cfbe9936849b55f720cc71b896d1cb5f098dd66ecde5f95713",
+        "treeSize": 10,
+        "mapRoot": "0x83cb73c4bf27354da7d0b3ab2bc4a9f6280fe0756910549380a1da325146d300",
+        "anchoredAt": 1789619071
+      },
+      {
+        "batchId": 8,
+        "rootHash": "0x5a37b2e9e59df99ce23c9a9bfbac28c4c963995f656f68016a5554e885ccfe3c",
+        "treeSize": 12,
+        "mapRoot": "0xee5bea5d4816b692e9b60f420fa09ad7f61f418c328426653df161b207ea1421",
+        "anchoredAt": 1789619077
+      },
+      {
+        "batchId": 9,
+        "rootHash": "0x9e344b9a95600424f5c487edcef18368e7d34f684c601ef8ac13b5d64035e881",
+        "treeSize": 13,
+        "mapRoot": "0xee5bea5d4816b692e9b60f420fa09ad7f61f418c328426653df161b207ea1421",
+        "anchoredAt": 1789619087
+      },
+      {
+        "batchId": 10,
+        "rootHash": "0x93150185d95d09bc093f2efddbaadd66d25fb1c601128385f39eb18c9fb55ef1",
+        "treeSize": 16,
+        "mapRoot": "0x6a030aec364ef48bbe5d69d0bc37a5ee2e04b20e8c568840bfc3d2e95de8cc4a",
+        "anchoredAt": 1789619094
+      },
+      {
+        "batchId": 11,
+        "rootHash": "0xafbe7d089321aae9c2a8d3048d089e0b7ec5068323bdeb227348d2c15378963f",
+        "treeSize": 19,
+        "mapRoot": "0x057e04459dd34ede4278dc866f40d7cf55624517651205213b41ae40e57c3d0b",
+        "anchoredAt": 1789619109
+      },
+      {
+        "batchId": 12,
+        "rootHash": "0xf5a0b8093b706caeb8f8229e87d52efce56f0024e190350ed652afdddd01daeb",
+        "treeSize": 23,
+        "mapRoot": "0x11473aa6cc1ee39707b8fa27d8e7990de78e7685e9a28ea21cc82ce6f6bd3237",
+        "anchoredAt": 1789619134
+      },
+      {
+        "batchId": 13,
+        "rootHash": "0xb7dcc6ef63a3623e761ae6c2ac55be4573fd3351161ffcd9cd198d26907010a8",
+        "treeSize": 25,
+        "mapRoot": "0x9d0875f7971505ee1b3dcae271c524942d7ab472bd74cbe46f213ac9e88d6a14",
+        "anchoredAt": 1789619407
+      },
+      {
+        "batchId": 14,
+        "rootHash": "0xbdc7a3a9c68eb1cd6b262f77190f8fef24983d26b87922272b03f76d8db60c19",
+        "treeSize": 26,
+        "mapRoot": "0x9d0875f7971505ee1b3dcae271c524942d7ab472bd74cbe46f213ac9e88d6a14",
+        "anchoredAt": 1789619417
+      },
+      {
+        "batchId": 15,
+        "rootHash": "0xe15f29d10cd408799bf6b07bc9004a3b7658edd47040a0a8dd8e851348ad373b",
+        "treeSize": 27,
+        "mapRoot": "0x9d0875f7971505ee1b3dcae271c524942d7ab472bd74cbe46f213ac9e88d6a14",
+        "anchoredAt": 1789619427
+      },
+      {
+        "batchId": 16,
+        "rootHash": "0xcae4db4d0615b2c7f41339524903bc587662d4ec20e7978355a819385debff84",
+        "treeSize": 29,
+        "mapRoot": "0x126445bd55d4888dfeda9db16dbbda2dd55e760e6ef061a2dff27146d66b5e2c",
+        "anchoredAt": 1789619432
+      },
+      {
+        "batchId": 17,
+        "rootHash": "0x1e7a80e4ff077f089514c5ce26136bbd148286b265d28201c56d6048f9354b30",
+        "treeSize": 30,
+        "mapRoot": "0x378375dfdc48315a7bbfce03d92e6dfc20582c898a75d5529f55cf6cff2be95b",
+        "anchoredAt": 1789619442
+      },
+      {
+        "batchId": 18,
+        "rootHash": "0x86beb7f9392d5c6fa97a85e6ac246cdd68e38a98996a929f31caca494524532d",
+        "treeSize": 32,
+        "mapRoot": "0xc9ef368f01eece0c0c757d913db61bc0fd4f202168a3548c35aaf576e1444101",
+        "anchoredAt": 1789619450
+      },
+      {
+        "batchId": 19,
+        "rootHash": "0x18afae9f6cd9371f9f1f6c6ac7943687cec34b69793e4853bdfa1c459fa8f368",
+        "treeSize": 33,
+        "mapRoot": "0x81ac13558da1964be3f0abc73bbe547671d9d12269d426a06219a980125dc332",
+        "anchoredAt": 1789619460
+      },
+      {
+        "batchId": 20,
+        "rootHash": "0xd84a74b09f377861f5250fe14e4c8ddfa89f2938a6ca819ff4a55128948340c3",
+        "treeSize": 35,
+        "mapRoot": "0xca9d5d518a3d2104339263522dc7adcfff795e653b74e48b540d81a83b1a4571",
+        "anchoredAt": 1789619467
+      },
+      {
+        "batchId": 21,
+        "rootHash": "0xb1028cfe7421ef87433a0086185a2315448734dc0b2c0e9abf4cdda863ecfad6",
+        "treeSize": 36,
+        "mapRoot": "0xca9d5d518a3d2104339263522dc7adcfff795e653b74e48b540d81a83b1a4571",
+        "anchoredAt": 1789619477
+      },
+      {
+        "batchId": 22,
+        "rootHash": "0x20bf6f8cb91e8b4f8262cfeb075a520e2a451fd53b9544435f1b9a2fec8e7446",
+        "treeSize": 39,
+        "mapRoot": "0xa9f67c4b495f42b4f786193bcd4c515b1e51c5cd252687a1463348ea533c4fdf",
+        "anchoredAt": 1789619485
+      },
+      {
+        "batchId": 23,
+        "rootHash": "0x8a082767a4fa3b9e2b416ecbd5a27a65b39f360f332fd18de799bdfc0251fef5",
+        "treeSize": 42,
+        "mapRoot": "0x870056880271b38ee2881e428ca1f94d4fe38a75c119fba2381b958410c617d3",
+        "anchoredAt": 1789619502
+      },
+      {
+        "batchId": 24,
+        "rootHash": "0xcc0d04b865a867ae74cc6a0c0eaf13b83f26f8a93c93887951c0e417f0e0a295",
+        "treeSize": 46,
+        "mapRoot": "0x5da6da78c68537df282cc2135d714c405dbfdef775e9fa991206aee3e5a3dbfa",
+        "anchoredAt": 1789619527
+      },
+      {
+        "batchId": 25,
+        "rootHash": "0x082d57fe683de785bf1b3b67635a8fe9fbd700a62b0aaa0b35c35b2485c3e5f8",
+        "treeSize": 47,
+        "mapRoot": "0x5da6da78c68537df282cc2135d714c405dbfdef775e9fa991206aee3e5a3dbfa",
+        "anchoredAt": 1789619537
+      },
+      {
+        "batchId": 26,
+        "rootHash": "0xdd5e62ffae115a5bbeb6b534a4cdfa2dc0f9d73f23256f04c2d392ad3c651171",
+        "treeSize": 48,
+        "mapRoot": "0x5da6da78c68537df282cc2135d714c405dbfdef775e9fa991206aee3e5a3dbfa",
+        "anchoredAt": 1789619551
+      },
+      {
+        "batchId": 27,
+        "rootHash": "0xa1624fa047f1234b65714c15edf536ff8e8ea4f30b27f0903cf1afb4d5a66a72",
+        "treeSize": 50,
+        "mapRoot": "0xcfa135e3c8463111a6f1f37714dc9027d3d1c825d46d83b0a34fe5ab8c3c3c31",
+        "anchoredAt": 1789619557
+      },
+      {
+        "batchId": 28,
+        "rootHash": "0xad06ce244181d4129ecc9ae9c6c6c66ac0cd4ee07b58ec29d8255d5bebdc5b15",
+        "treeSize": 51,
+        "mapRoot": "0xbc4514adeca679098ffc984ea15197f2db848192ab65d1fee429c5675fa48360",
+        "anchoredAt": 1789619567
+      },
+      {
+        "batchId": 29,
+        "rootHash": "0xbb04fcef099f9733a505a6009225ceff13d340efe022e5fd4333d24214223265",
+        "treeSize": 53,
+        "mapRoot": "0xc351c419c829819156a28498ac09cae17580b914ba184490f9bc8cc1edcae980",
+        "anchoredAt": 1789619575
+      },
+      {
+        "batchId": 30,
+        "rootHash": "0xa2668187d97591e110075298e0061f076aab877ebe67e1f9161b41924a80f0e0",
+        "treeSize": 54,
+        "mapRoot": "0x43c8673e9c58b0d05eea697568516fe1affb3600471724e0fb68b4f3c1e771e9",
+        "anchoredAt": 1789619585
+      },
+      {
+        "batchId": 31,
+        "rootHash": "0x4defc61d4a9bb1e7cbbec1da1067521a8ecdb1d4c3047d22f66352750d88b485",
+        "treeSize": 56,
+        "mapRoot": "0xf3816150a9b52c544f4bcdff6845a7bc20ce9ffbe9a380977309b77af458ecc1",
+        "anchoredAt": 1789619594
+      },
+      {
+        "batchId": 32,
+        "rootHash": "0x05c109117eabb993d699cfdf9f7238a99f9444f76a1e2df6bfa252f2d1149bdb",
+        "treeSize": 57,
+        "mapRoot": "0xf3816150a9b52c544f4bcdff6845a7bc20ce9ffbe9a380977309b77af458ecc1",
+        "anchoredAt": 1789619604
+      },
+      {
+        "batchId": 33,
+        "rootHash": "0xf4d9a3500b0784d0d7742367683be0fe887454fca6f5a527477ea88a08541b18",
+        "treeSize": 60,
+        "mapRoot": "0xb8655a1dae8ec9ff4d5aed5361fcaf8fb21c8624a2e544950860f7d9fe2876a4",
+        "anchoredAt": 1789619613
+      },
+      {
+        "batchId": 34,
+        "rootHash": "0x14ca4ef53fe6977d193cb52acaef72cd20e17e14189cac3cc4aad9768ea93d98",
+        "treeSize": 63,
+        "mapRoot": "0xc1a8fe3d027b8c5257fb234cb24fdebae309027b2690f8ad8360c4daed66a805",
+        "anchoredAt": 1789619631
+      },
+      {
+        "batchId": 35,
+        "rootHash": "0x9898389b14ca24376f605a9e15c149e1225cf62ea5dccadfc76ffb0bf79f4b9a",
+        "treeSize": 67,
+        "mapRoot": "0x928d877abe904f28eebb20b8cc318490fc17a8b90fa56680752f600c03f179dd",
+        "anchoredAt": 1789619656
+      },
+      {
+        "batchId": 36,
+        "rootHash": "0x355b3272b20fbd5c73a921df402fd628061f9bcc50c086c77f99f3ab0bf34bfe",
+        "treeSize": 68,
+        "mapRoot": "0x928d877abe904f28eebb20b8cc318490fc17a8b90fa56680752f600c03f179dd",
+        "anchoredAt": 1789619667
+      },
+      {
+        "batchId": 37,
+        "rootHash": "0x6045abfc7486bfcfb55231322e849c66b746de627af158d30b47a94f95da51e2",
+        "treeSize": 69,
+        "mapRoot": "0x928d877abe904f28eebb20b8cc318490fc17a8b90fa56680752f600c03f179dd",
+        "anchoredAt": 1789619682
+      },
+      {
+        "batchId": 38,
+        "rootHash": "0x2383d45ddf8a04475554e0b069cd2504f8aa2961d0064e896643d63dc535bcd4",
+        "treeSize": 71,
+        "mapRoot": "0xc0298e4994f0101300b77496b61d42dea84090c0e79d5cebda5984c45c515fe5",
+        "anchoredAt": 1789619689
+      },
+      {
+        "batchId": 39,
+        "rootHash": "0xd9cfe68e58fe334c6e91499620c6d2b91d802b07a20176971961a5f0463a5ea3",
+        "treeSize": 72,
+        "mapRoot": "0x70292bca6e95b88aa7265034ee05db2953a0eb9c382ea6fbf0fca2a065b98b14",
+        "anchoredAt": 1789619699
+      },
+      {
+        "batchId": 40,
+        "rootHash": "0x7c1cbf5a66523432ac8ff6fa5c69cb458842fd57541382c389658ed912a6978d",
+        "treeSize": 74,
+        "mapRoot": "0x7cfd871b9ddc2a8fd9a0e7c1f9b477303e71b58e1f24597469c916d12c49ff0e",
+        "anchoredAt": 1789619708
+      },
+      {
+        "batchId": 41,
+        "rootHash": "0xaa7d7ee90d096b0ef08a3979bc3dc9e5fb05d0f8e99c8048c2b1605b28c3e6f3",
+        "treeSize": 75,
+        "mapRoot": "0xf258267f06152513ace50d50004e2c1408b428b785ac6f3ead6b23fec4bf6974",
+        "anchoredAt": 1789619718
+      },
+      {
+        "batchId": 42,
+        "rootHash": "0x03addce00faa060cbdc1217c236048105c22c722c44fcf6cc82101d5081b980b",
+        "treeSize": 77,
+        "mapRoot": "0xa8dee0b5f128d295232cd8fa376e7bd3072e6c7918ed3931506afe8d914ec2d5",
+        "anchoredAt": 1789619727
+      },
+      {
+        "batchId": 43,
+        "rootHash": "0x2a1ffc61f174feb6592a2d519a8155774b77f2ddcd297aa5c7e9b109e725a55f",
+        "treeSize": 78,
+        "mapRoot": "0xa8dee0b5f128d295232cd8fa376e7bd3072e6c7918ed3931506afe8d914ec2d5",
+        "anchoredAt": 1789619737
+      },
+      {
+        "batchId": 44,
+        "rootHash": "0xe42620a77c3d787f364ded6117aa856ac7213204e4a81ea66765940d66e2d50c",
+        "treeSize": 81,
+        "mapRoot": "0x7b8287f5053300dd537b4719a4522c9857c05ec7b422bb8981abe9f258f53142",
+        "anchoredAt": 1789619747
+      },
+      {
+        "batchId": 45,
+        "rootHash": "0x7f2225e436272e72e10839fa84d0754f089d8992a40d98311b800fdf43a99418",
+        "treeSize": 84,
+        "mapRoot": "0x3f0e2e4c6c2652fbfcb72194c5a0367c8ec25b1e263e6979ba6d7e5e344c1627",
+        "anchoredAt": 1789619766
+      },
+      {
+        "batchId": 46,
+        "rootHash": "0x8d3e3f426c72517b4130f04d7d0a336e02016822df4c2a1dd1a044793fe014d6",
+        "treeSize": 88,
+        "mapRoot": "0x8629c5de9ca361a63b091bf4175b617033a922ad962d1de4119be38f0cc0ca9c",
+        "anchoredAt": 1789619791
+      },
+      {
+        "batchId": 47,
+        "rootHash": "0x05b81963ef9a2307865973c9bfd85a889ed32620d30b362084bb3080f50f1190",
+        "treeSize": 89,
+        "mapRoot": "0x8629c5de9ca361a63b091bf4175b617033a922ad962d1de4119be38f0cc0ca9c",
+        "anchoredAt": 1789619803
+      },
+      {
+        "batchId": 48,
+        "rootHash": "0x1e94c5ecac9671dbdaf18fe7995750ff24025d729a57a1ae716e3dd98653912a",
+        "treeSize": 90,
+        "mapRoot": "0x8629c5de9ca361a63b091bf4175b617033a922ad962d1de4119be38f0cc0ca9c",
+        "anchoredAt": 1789619819
+      },
+      {
+        "batchId": 49,
+        "rootHash": "0xbfb27315e569d1c8e3e44194f2677f34ed718c3de4dfcad1e0b8aeed21ba5ff8",
+        "treeSize": 92,
+        "mapRoot": "0x271638e6807fb645330cf16c7a0845c9cecc95a9cdf84027cf87a17e4d4df8f7",
+        "anchoredAt": 1789619826
+      },
+      {
+        "batchId": 50,
+        "rootHash": "0xa082d45a0324690d62c45c2f56317786f5595acc7363caf7b04c35ca9add35f9",
+        "treeSize": 93,
+        "mapRoot": "0xaa77d62a26adf7a30be8cfc2551e1c1df1d6909ea2796c6965ea55689c62d4d3",
+        "anchoredAt": 1789619837
+      },
+      {
+        "batchId": 51,
+        "rootHash": "0x43104ae207ae2cbb85e947d224ea06957a1b8daba83821818031f3331f3c3265",
+        "treeSize": 95,
+        "mapRoot": "0xb13f5a93b7fb2a15cd0ccca9655582073370ca5a9c0bc24169beb44b9c26dd8b",
+        "anchoredAt": 1789619846
+      },
+      {
+        "batchId": 52,
+        "rootHash": "0x60f5c4c8696645a0d8dabf141c0b0492c4d7c987a7112d6a73fe010168a7e470",
+        "treeSize": 96,
+        "mapRoot": "0x75dbe024d8de7346e3b49ea4e282a286b0ff50481760be726e4dfb89365cd9d1",
+        "anchoredAt": 1789619856
+      },
+      {
+        "batchId": 53,
+        "rootHash": "0xe619e84d3da4f8b9ac8d17817362038029f253a653c53c6a2812d1ad578c489a",
+        "treeSize": 98,
+        "mapRoot": "0x1df0e105b2ed518322a9599a9e7353447ce6a2a16933754b790889aca9b4d3ce",
+        "anchoredAt": 1789619866
+      },
+      {
+        "batchId": 54,
+        "rootHash": "0x96c7a5b9232e6f067df91d0659f52d66dfe0c2376e24b59cef350b1e55476a7d",
+        "treeSize": 99,
+        "mapRoot": "0x1df0e105b2ed518322a9599a9e7353447ce6a2a16933754b790889aca9b4d3ce",
+        "anchoredAt": 1789619876
+      },
+      {
+        "batchId": 55,
+        "rootHash": "0x52532cd86525082f460eeff889b9e186645eaa989e7f5db3991614b08ed0fa2a",
+        "treeSize": 102,
+        "mapRoot": "0xa49d0324eaca4c73d08b7a1f6d9b00bab59da5ef1fba07d198d1e3231187d679",
+        "anchoredAt": 1789619887
+      },
+      {
+        "batchId": 56,
+        "rootHash": "0x2b8580fb6f46611a59645eb0df9539ae7cccff4d670ed28f470f12da62d203fc",
+        "treeSize": 105,
+        "mapRoot": "0x9e57d23653e8ea650dd28335ec6bad0cacce5668b2dac69d39fd14709a266de4",
+        "anchoredAt": 1789619904
+      },
+      {
+        "batchId": 57,
+        "rootHash": "0x1f0ae8a6c871fe14bde675837d144f6043d379f07ba4b93d82cd21806c97824c",
+        "treeSize": 109,
+        "mapRoot": "0xcba3b10159853b9b7501b07098c402474c64b271d4249d6df4397cc17207ddbe",
+        "anchoredAt": 1789619931
+      },
+      {
+        "batchId": 58,
+        "rootHash": "0x71f35a551a7876e2fe28f34a98bee3cf4b8f9d8c97e4507378c747bc4a31cac6",
+        "treeSize": 110,
+        "mapRoot": "0xcba3b10159853b9b7501b07098c402474c64b271d4249d6df4397cc17207ddbe",
+        "anchoredAt": 1789619943
+      },
+      {
+        "batchId": 59,
+        "rootHash": "0x286a7758398a773926e919ebf3a59795915af0477e04c72babc475bf2e4baaea",
+        "treeSize": 111,
+        "mapRoot": "0xcba3b10159853b9b7501b07098c402474c64b271d4249d6df4397cc17207ddbe",
+        "anchoredAt": 1789619959
+      },
+      {
+        "batchId": 60,
+        "rootHash": "0x1798474ddc7cd89f63bffcece555597521ec55539fee6d705912368336bd1d26",
+        "treeSize": 113,
+        "mapRoot": "0xeecd713822b77b7812efa1a6c35b159a2afede6e8da19ee3f81b6dffa35bccbc",
+        "anchoredAt": 1789619967
+      },
+      {
+        "batchId": 61,
+        "rootHash": "0xc1687ae8d1fd73b8bae7b573a823339e611477ffa47f10fc4f06cf2d44eb6888",
+        "treeSize": 114,
+        "mapRoot": "0x0e16e05e9d45c2dd25ceb4fbf42945e1b62c8a7de5693fbe2d0f3f1b467e5a9a",
+        "anchoredAt": 1789619976
+      },
+      {
+        "batchId": 62,
+        "rootHash": "0x89a1aa48eb6a93d7d6933e00e2822647f745cb00eb9066f9055296423bc95852",
+        "treeSize": 116,
+        "mapRoot": "0x5e2e66571d85c8311de9df881208ee14c8eb935d129a31471fd6532ced4ec13c",
+        "anchoredAt": 1789619988
+      },
+      {
+        "batchId": 63,
+        "rootHash": "0xe2711f2b88eb9fd2727b239d00e8b4f2879c7adf83784541fc0311d7c33bd95b",
+        "treeSize": 117,
+        "mapRoot": "0x0d3854f0d2f2a17a10d56e3d99ae49b5737b8bdfb07580bfd00e81c7bd64cce1",
+        "anchoredAt": 1789619997
+      },
+      {
+        "batchId": 64,
+        "rootHash": "0x2094ead0efc76b008f666dd63e28490cbd4f28c17dca4fc729711c97edecd9a9",
+        "treeSize": 119,
+        "mapRoot": "0x541708112b218453215f84e5caa3f7a67fb3dceb626b4a9f3f122c5b77273930",
+        "anchoredAt": 1789620009
+      },
+      {
+        "batchId": 65,
+        "rootHash": "0x31b9deebdedb49b8b4e57b007ce3d9e65b694cdf6dd6e1515751bebb4ae4650e",
+        "treeSize": 120,
+        "mapRoot": "0x541708112b218453215f84e5caa3f7a67fb3dceb626b4a9f3f122c5b77273930",
+        "anchoredAt": 1789620018
+      },
+      {
+        "batchId": 66,
+        "rootHash": "0xdcf5784b12cb24cb6101556fdfb8397170ea96b2802baff33283dd1ad0d55511",
+        "treeSize": 123,
+        "mapRoot": "0x7da4fe0754559ea18151bf81cf1b032e50e8c62bb1fd932f4900cca9204709b5",
+        "anchoredAt": 1789620030
+      },
+      {
+        "batchId": 67,
+        "rootHash": "0x12a3df019c8e07151a5d53d53d9402f9f1d86e69529a59cb0d4bc98d5699835f",
+        "treeSize": 126,
+        "mapRoot": "0xe938e0fc7c55cb3e31d40d27f98eba3af2ce60469c112593612d7ea130b86e4d",
+        "anchoredAt": 1789620048
+      },
+      {
+        "batchId": 68,
+        "rootHash": "0xb39b12f82ae84881f70bd841ac7aa1eeaad88ded156f004588cb42b9083c2ad9",
+        "treeSize": 130,
+        "mapRoot": "0x3c28f5774beaafd42372c1f94e02e734f57a63e90ea73179633e9b7e8eb4385e",
+        "anchoredAt": 1789620075
+      },
+      {
+        "batchId": 69,
+        "rootHash": "0x8b3f0c52a04d0c591f6bd3260daccc8b940ebe8d8908f21c65b9c786ddf8f603",
+        "treeSize": 131,
+        "mapRoot": "0x3c28f5774beaafd42372c1f94e02e734f57a63e90ea73179633e9b7e8eb4385e",
+        "anchoredAt": 1789620088
+      },
+      {
+        "batchId": 70,
+        "rootHash": "0x0a3fdbfa4881c089568c377cbdc89287271a686f108470d01a80b176998498a3",
+        "treeSize": 132,
+        "mapRoot": "0x3c28f5774beaafd42372c1f94e02e734f57a63e90ea73179633e9b7e8eb4385e",
+        "anchoredAt": 1789620104
+      },
+      {
+        "batchId": 71,
+        "rootHash": "0x24e8f6a68163fc2b31785232e597894dd7cb67c2fb4c5c5104931d2839adfc9f",
+        "treeSize": 134,
+        "mapRoot": "0x5d25ba4fae00cb1f32a728069d7f777a24e64108de031c3bfc233d4932313f3e",
+        "anchoredAt": 1789620113
+      },
+      {
+        "batchId": 72,
+        "rootHash": "0x030470e962b378756923ad4b02075eb967c3367d4e657b17329fcec711c6b117",
+        "treeSize": 135,
+        "mapRoot": "0xb75fb365be80d57de444dbc6805f1fad50042db055ece214da48820c98802046",
+        "anchoredAt": 1789620123
+      },
+      {
+        "batchId": 73,
+        "rootHash": "0x221c000b14f7841038a78bb1962502142e088d45f46adc6b3487a0b9ca42884e",
+        "treeSize": 137,
+        "mapRoot": "0x103ef80eec4736c39be82dd417281aa4f7f2ad15dd43a8c3c18c2573557ff25e",
+        "anchoredAt": 1789620135
+      },
+      {
+        "batchId": 74,
+        "rootHash": "0x008177a140d4d2375edb4f268e332fe8b223fd64eafc3d4e947101baba50bef7",
+        "treeSize": 138,
+        "mapRoot": "0x347c27bc31b8aa778fe8bd9ad4545be72f2e584fefe1b7e60eb3ce88331fd751",
+        "anchoredAt": 1789620144
+      },
+      {
+        "batchId": 75,
+        "rootHash": "0xe6cc0a2374049b5c31e833caa9a1600bb5f0bb605ea2aab7874a0de032ce02dc",
+        "treeSize": 140,
+        "mapRoot": "0x98a840a1214854c9cdc439d0bc74d166114aac8496c5d32255988ee98d8a444c",
+        "anchoredAt": 1789620156
+      },
+      {
+        "batchId": 76,
+        "rootHash": "0x17735149bbdeabef371e48eb980caf65fcfb6616ce6b5117efa7fd3ef96b72e6",
+        "treeSize": 141,
+        "mapRoot": "0x98a840a1214854c9cdc439d0bc74d166114aac8496c5d32255988ee98d8a444c",
+        "anchoredAt": 1789620166
+      },
+      {
+        "batchId": 77,
+        "rootHash": "0x885a41ae1eba05420d2c0626c764c785431e72a4b6c288df227b000babfc0da4",
+        "treeSize": 144,
+        "mapRoot": "0x43205ed918c82079e9ead2351d87ba7210c16b65bc731c1cc73077422f66f946",
+        "anchoredAt": 1789620180
+      },
+      {
+        "batchId": 78,
+        "rootHash": "0x72b50f517ab6e837925522364072e12122d5f0b8f71c2f858a93ff1c407a0f23",
+        "treeSize": 147,
+        "mapRoot": "0x70d266cdd7dd5cb32df0e2d23d9e4f46dd031fed8a517b29f28154d4c7feab5e",
+        "anchoredAt": 1789620197
+      },
+      {
+        "batchId": 79,
+        "rootHash": "0x2e9aa98cd696fd481c55a79bbd0c3166955a494c093ce341d4a109216977f52a",
+        "treeSize": 151,
+        "mapRoot": "0xc1e87165a1d88604cf5225c3fd48d3f0f278f4f9e72dc167953cff3f64dd1fd4",
+        "anchoredAt": 1789620225
+      },
+      {
+        "batchId": 80,
+        "rootHash": "0x823718a49108c1543f89e908375363843afafdc81c78dba3b4eaf1a7459f2873",
+        "treeSize": 152,
+        "mapRoot": "0xc1e87165a1d88604cf5225c3fd48d3f0f278f4f9e72dc167953cff3f64dd1fd4",
+        "anchoredAt": 1789620237
+      },
+      {
+        "batchId": 81,
+        "rootHash": "0x98b0540f4009f7169d8cba200c6eccd25cdbfc3b446f271112e5a69aabd5d12f",
+        "treeSize": 153,
+        "mapRoot": "0xc1e87165a1d88604cf5225c3fd48d3f0f278f4f9e72dc167953cff3f64dd1fd4",
+        "anchoredAt": 1789620254
+      },
+      {
+        "batchId": 82,
+        "rootHash": "0x1f18c3f1102e28ec2aef9399855469ab3e541534218b6b5dce29a10740b76d11",
+        "treeSize": 155,
+        "mapRoot": "0x4a048e88018d20324f5f1875d20465c097cb6eefcd923b46d022f7adcf1ad4db",
+        "anchoredAt": 1789620263
+      },
+      {
+        "batchId": 83,
+        "rootHash": "0xf2cfc2d83fd6b8f33f681f6b5d88671bd02a0c4d09bc3951be410ee161efc490",
+        "treeSize": 156,
+        "mapRoot": "0xb9dfaf15d8c96ce8e233bc27c90a8b371a5110da7eecce37a3b9a5d11c3e97e1",
+        "anchoredAt": 1789620274
+      },
+      {
+        "batchId": 84,
+        "rootHash": "0x2b1819157dc0ad57eb6592fd333205b1405bebdc5163de366940d36dda77bf4e",
+        "treeSize": 158,
+        "mapRoot": "0xcc5be1064ef926a9b869301bf36b17da52f198a89516b85b06d5967033bd0d88",
+        "anchoredAt": 1789620287
+      },
+      {
+        "batchId": 85,
+        "rootHash": "0x7cc4e525741a17aac8f71eb40f419046b87fd8df31df06550dd4e67b130aa981",
+        "treeSize": 159,
+        "mapRoot": "0x6e9be40d5548244925d0686f58ecac748a769f60a23a3f549b1752fda56c98c7",
+        "anchoredAt": 1789620296
+      },
+      {
+        "batchId": 86,
+        "rootHash": "0x3653543a9a29fbef18168485b3d0d6c8cdafe689209ef537ec73ed71fd0dc1a5",
+        "treeSize": 161,
+        "mapRoot": "0xd50f1ab1194905d8d793f29e3fd69c4650177f1a0f5e60fdc974352769992e24",
+        "anchoredAt": 1789620309
+      },
+      {
+        "batchId": 87,
+        "rootHash": "0x5f61a74af5d8cd85531c7c1156f6fd8dddc8b6a8d58371dbad310c21e4082af5",
+        "treeSize": 162,
+        "mapRoot": "0xd50f1ab1194905d8d793f29e3fd69c4650177f1a0f5e60fdc974352769992e24",
+        "anchoredAt": 1789620319
+      },
+      {
+        "batchId": 88,
+        "rootHash": "0xcb1495991846456df5c92710d4a770a209cfaec05901c02d329f827bf98cf705",
+        "treeSize": 165,
+        "mapRoot": "0xd83d0896265839d323c81bea0fc7aa8d5a2251f050fcf9960a1bfc2d3b614855",
+        "anchoredAt": 1789620332
+      },
+      {
+        "batchId": 89,
+        "rootHash": "0x9308a04edd59bda53c5e318c95ef144c54c9f107f644cc09352c0c6575b512c7",
+        "treeSize": 168,
+        "mapRoot": "0x369e9c132a58e4523c0879e970ad8a59989b84c99a5dc6a3779ecc1e24fa14e8",
+        "anchoredAt": 1789620356
+      },
+      {
+        "batchId": 90,
+        "rootHash": "0xcb7952e307eba87483853eef923697bf2fd5008d0345db46e4daa3f32f77bea0",
+        "treeSize": 172,
+        "mapRoot": "0xc6bab8d01b3c5376fd7cab244e748e0e283c63c24542b69451b3f1c19b600ec5",
+        "anchoredAt": 1789620385
+      },
+      {
+        "batchId": 91,
+        "rootHash": "0xb81c4610f4f7a23342529f0f8c4dcef1077d82941f05642fc65b70765844cffe",
+        "treeSize": 173,
+        "mapRoot": "0xc6bab8d01b3c5376fd7cab244e748e0e283c63c24542b69451b3f1c19b600ec5",
+        "anchoredAt": 1789620399
+      },
+      {
+        "batchId": 92,
+        "rootHash": "0xc9b24c667f3b78ec15b3010eaf43b18389f7871b545d8a7485c138b61a4abba3",
+        "treeSize": 174,
+        "mapRoot": "0xc6bab8d01b3c5376fd7cab244e748e0e283c63c24542b69451b3f1c19b600ec5",
+        "anchoredAt": 1789620416
+      },
+      {
+        "batchId": 93,
+        "rootHash": "0x97e5c4cd7229375e80cf61710673a652f04de8494d40028abce1d431a0bcdc4f",
+        "treeSize": 176,
+        "mapRoot": "0xf99b9df1638d3fc4af06ccf8138022d8dc959d9f80df931dc002223737517dee",
+        "anchoredAt": 1789620426
+      },
+      {
+        "batchId": 94,
+        "rootHash": "0xb25eb03bf7dd64b480a63a440c7410e0507cc80f63686f4fdd1ce6c1d04385ff",
+        "treeSize": 177,
+        "mapRoot": "0xc05af7c79b9da6857293bde410c9e19952b7410e39cd4a20bf19491f697fc6fe",
+        "anchoredAt": 1789620436
+      },
+      {
+        "batchId": 95,
+        "rootHash": "0x39d5ff1c9e1bac268022b3ebe1fc5df70e8c3d2e36753156f721d9d51243f022",
+        "treeSize": 179,
+        "mapRoot": "0x58c83e10cfb20c82c1b82da422970fc84a0f5c1775b078ffcba1bc9364cb1a85",
+        "anchoredAt": 1789620449
+      },
+      {
+        "batchId": 96,
+        "rootHash": "0xad562e24b405526353c012b47ad3ed032116175dd2bbf68a93b4584fbde4b097",
+        "treeSize": 180,
+        "mapRoot": "0x227d05ce01913a38c67afd8a7b70f53190364a4fb8865bc56415f8f8e8e514cd",
+        "anchoredAt": 1789620459
+      },
+      {
+        "batchId": 97,
+        "rootHash": "0x6c2684b7e2b4eee5b6b5188f4175f3e179bd2085f33f483a57cbf2ac521814ca",
+        "treeSize": 182,
+        "mapRoot": "0x50f9d38232a289d650f7fadb2d0e5bbbe9729fffb5197ad5c6bc3c53da7f30ec",
+        "anchoredAt": 1789620472
+      },
+      {
+        "batchId": 98,
+        "rootHash": "0x6a547c31b91f0a1e00ffefb3a9248a43ba7a4ae8e6b571ff2c30d8e064511277",
+        "treeSize": 183,
+        "mapRoot": "0x50f9d38232a289d650f7fadb2d0e5bbbe9729fffb5197ad5c6bc3c53da7f30ec",
+        "anchoredAt": 1789620482
+      },
+      {
+        "batchId": 99,
+        "rootHash": "0x308a31e282d67f6dd5561526763fb2bef42d982049c8e9472026a13f2e9963e9",
+        "treeSize": 186,
+        "mapRoot": "0x279e4a896db72f99ce0b0da27144b002a4d63e235b801430e02c3f68387345d8",
+        "anchoredAt": 1789620497
+      },
+      {
+        "batchId": 100,
+        "rootHash": "0x7e2e413fbdd850e68b09aa1ec0b3c89193f7fd49f9063616418208546ab00602",
+        "treeSize": 189,
+        "mapRoot": "0x732de21b6e272fd476c32b00bf0a6e7bb82a7226ac3ffc409b90d5ea9dd35590",
+        "anchoredAt": 1789620522
+      },
+      {
+        "batchId": 101,
+        "rootHash": "0x838ff351a0d8bb047d9740f4e8b861a5bb12b6f2579e4b4d8c536f7751b3eff5",
+        "treeSize": 193,
+        "mapRoot": "0xc710cfbee4de4616960a7d8f1f853c3645abe05ab251ff8c0d978467afaa7844",
+        "anchoredAt": 1789620551
+      },
+      {
+        "batchId": 102,
+        "rootHash": "0xd04d34d7df20d123feee84fb7184f02631debf94659c44f90932276f86be1eae",
+        "treeSize": 194,
+        "mapRoot": "0xc710cfbee4de4616960a7d8f1f853c3645abe05ab251ff8c0d978467afaa7844",
+        "anchoredAt": 1789620565
+      },
+      {
+        "batchId": 103,
+        "rootHash": "0x8686f6062b5592e5e06111cd72abf341aab19b970a5b949097ee985581a2043f",
+        "treeSize": 195,
+        "mapRoot": "0xc710cfbee4de4616960a7d8f1f853c3645abe05ab251ff8c0d978467afaa7844",
+        "anchoredAt": 1789620583
+      },
+      {
+        "batchId": 104,
+        "rootHash": "0x2fdaac12aa98b9da4d399b855a6ccd936c0b1487468615b45094c8232620a6ee",
+        "treeSize": 197,
+        "mapRoot": "0xa5163d279928ed064ea79bac224e0b0d043c6c38b8a4de3f09db087a8e030441",
+        "anchoredAt": 1789620593
+      },
+      {
+        "batchId": 105,
+        "rootHash": "0xe03af97b22968ba9400584f7271223852f38ba3d46e6f0eddc35e1d79376fcf6",
+        "treeSize": 198,
+        "mapRoot": "0x91c7edf920029d9a52d51a004f86cb872ff2b6925af25a6bb15db2bd92243e3a",
+        "anchoredAt": 1789620603
+      },
+      {
+        "batchId": 106,
+        "rootHash": "0xdd3248a59787889ded33c863d9c87db7f5eeb0af567e21c0dde5ce3c46834089",
+        "treeSize": 200,
+        "mapRoot": "0xd4e7278e9904d0dc623cd9dca86db83d653c36600b85e748a462a3a9b6214be2",
+        "anchoredAt": 1789620617
+      },
+      {
+        "batchId": 107,
+        "rootHash": "0x776ba16ef4ec97032c33ccc3b762566bcea86063b4eb63361fd5855722f74d70",
+        "treeSize": 201,
+        "mapRoot": "0x260d8db60f7642c6878bcfda84bad48e4ac8b556666ccd75af1a6a825aec3ca8",
+        "anchoredAt": 1789620627
+      },
+      {
+        "batchId": 108,
+        "rootHash": "0x1b0c9b007098a70073faea4c4f17100a3d73542a4ce45d5089bab9d005d642a8",
+        "treeSize": 203,
+        "mapRoot": "0x3e2e8663c2caf95d358a2a90f2f329fc9ea50888aba0c12737016416985d84ba",
+        "anchoredAt": 1789620642
+      },
+      {
+        "batchId": 109,
+        "rootHash": "0x6109e56b589cf2cf1d50a665fccc323589f31583a6fa72fba418d39147997c22",
+        "treeSize": 204,
+        "mapRoot": "0x3e2e8663c2caf95d358a2a90f2f329fc9ea50888aba0c12737016416985d84ba",
+        "anchoredAt": 1789620651
+      },
+      {
+        "batchId": 110,
+        "rootHash": "0x1a08740388c52fac0c1cfda39ad818daa816f8f4e55714b9a44b21a9aee72b68",
+        "treeSize": 207,
+        "mapRoot": "0xbd3e5cdcf1539f9f946b9d9798daed06ae8895fb4a0adca54895203b954569e9",
+        "anchoredAt": 1789620666
+      },
+      {
+        "batchId": 111,
+        "rootHash": "0xea9475805de37ccf0b16ac29f095ed7d4388ef217345d104892821d7cfc1d598",
+        "treeSize": 210,
+        "mapRoot": "0x315b3129d4592b9bebf1878971ecc40126a73e9f8d016fd678e982854f9b90a8",
+        "anchoredAt": 1789620691
+      },
+      {
+        "batchId": 112,
+        "rootHash": "0xb3df2461939e44dbe45e01228c651d1b782f0609085ef785c3c4ad06f160a884",
+        "treeSize": 214,
+        "mapRoot": "0x71c4bd815d87590d25253bc47b9fc66835f1fdfc47e3c15238a5000a9037eb3c",
+        "anchoredAt": 1789620720
+      },
+      {
+        "batchId": 113,
+        "rootHash": "0x028eb6403b4ddd7f7640d6cf95492e9ead7e6d16e2e3038f668c7ced733c0821",
+        "treeSize": 215,
+        "mapRoot": "0x71c4bd815d87590d25253bc47b9fc66835f1fdfc47e3c15238a5000a9037eb3c",
+        "anchoredAt": 1789620735
+      },
+      {
+        "batchId": 114,
+        "rootHash": "0x4afd0b1bb31a463016b66a8634392694e742615218710b84a1e580f5a8467ee3",
+        "treeSize": 216,
+        "mapRoot": "0x71c4bd815d87590d25253bc47b9fc66835f1fdfc47e3c15238a5000a9037eb3c",
+        "anchoredAt": 1789620753
+      },
+      {
+        "batchId": 115,
+        "rootHash": "0x82c316287de8e7bd234a37d2097542ba26e345d088c048270b77f8a65a217bdc",
+        "treeSize": 218,
+        "mapRoot": "0x6c51c5ebd66953cb9f65544c7379e44327b14b216fe75334887347e832cafc73",
+        "anchoredAt": 1789620763
+      },
+      {
+        "batchId": 116,
+        "rootHash": "0xc61d4519fd02d31832bdfbd711310a012c59d6b8bcc27a868c177da4c1f37398",
+        "treeSize": 219,
+        "mapRoot": "0x8f6f3e6b2d2dfe0467ce8c54b6c8f0287574594c9b2d4f2c36453ca4a3d1d025",
+        "anchoredAt": 1789620773
+      },
+      {
+        "batchId": 117,
+        "rootHash": "0x1bbee5bdf9eb934740c9f78183e8c39f15c6bb6d3afa8541c2adf5769a91461b",
+        "treeSize": 221,
+        "mapRoot": "0x3cdd34bbf1bfeb3c1305f55d925d08a303805d617d887feb114508f6bdac9d5a",
+        "anchoredAt": 1789620788
+      },
+      {
+        "batchId": 118,
+        "rootHash": "0xff369aeb7d7cae55e73a1bff7eec9096a11c8607568be9bdf9cac790f1425685",
+        "treeSize": 222,
+        "mapRoot": "0xb08b683b2ecb732d5f1448fb205b6a024ae9f921c29e216eb72d831929cf4067",
+        "anchoredAt": 1789620798
+      },
+      {
+        "batchId": 119,
+        "rootHash": "0xe86bd415058bce69a1e4ff68905e51b0ab6985faabb74abbc59b8bf800f25c82",
+        "treeSize": 224,
+        "mapRoot": "0x10d7c3ce1ab3591cc2e52b409649a3192d22538f1be28a4a7057a3eae99ba401",
+        "anchoredAt": 1789620812
+      },
+      {
+        "batchId": 120,
+        "rootHash": "0x739d5a9ce095dc4ab681f3cb0afd08f78da9b7fd98a934faf26c2804a24fb0df",
+        "treeSize": 225,
+        "mapRoot": "0x10d7c3ce1ab3591cc2e52b409649a3192d22538f1be28a4a7057a3eae99ba401",
+        "anchoredAt": 1789620822
+      },
+      {
+        "batchId": 121,
+        "rootHash": "0x4d24e18067bfe8dfa6ee8a8c5ad6d5569fdfd4e703195ea2289bb997eaed18f1",
+        "treeSize": 228,
+        "mapRoot": "0xe8fa851e7254a4b876fd14f88d09766a4039ee724f1a37f041f2b648374d89d0",
+        "anchoredAt": 1789620837
+      },
+      {
+        "batchId": 122,
+        "rootHash": "0x022293c17f6231546dd32691144fa06507f602a2bec16a70fe742d56cc620f74",
+        "treeSize": 231,
+        "mapRoot": "0xaac8d4de5226c44420d0efcf8caf05a806d89e8474bb4ec755954f18c1d1e87e",
+        "anchoredAt": 1789620864
+      },
+      {
+        "batchId": 123,
+        "rootHash": "0x0849d05998f274b65006ad34a06c1d9c0510486af8759c5816d61c3b715d3e3e",
+        "treeSize": 235,
+        "mapRoot": "0xf9abad0e52845c230e1530f14e73e6f362207f6433cc229908411d06213e4d57",
+        "anchoredAt": 1789620894
+      }
+    ],
+    "B": [
+      {
+        "batchId": 1,
+        "rootHash": "0xf16a2abd095425e64c578c010846710f47bcf8d5bb301b5b410364f0908f7d35",
+        "treeSize": 1,
+        "mapRoot": "0x4e120ae8f46638110e1c293f1809b508433ae3de83c4977a567998a19a33c906",
+        "anchoredAt": 1789619024
+      },
+      {
+        "batchId": 2,
+        "rootHash": "0x153671aea06b74da742e83847268115e1eda3d261cd594d2c23a0c02ab97f3a8",
+        "treeSize": 3,
+        "mapRoot": "0x176fe02681ad4bc5812afde70a02dd7ca963672cab89a594c07d2b43930f5e67",
+        "anchoredAt": 1789619098
+      },
+      {
+        "batchId": 3,
+        "rootHash": "0x0f8865ec2150ffced727a7eb420d2710a76b1255c5c3f377b6d991c75a05988b",
+        "treeSize": 5,
+        "mapRoot": "0x19b77f8cddc743c0d89b6f20f5aa754b86540142601e3998ce555ea31eba16d4",
+        "anchoredAt": 1789619105
+      },
+      {
+        "batchId": 4,
+        "rootHash": "0x7a44f01e4e544c377a3ea7390a7dc082ce53fcb5bc78526152dcae3a24480ece",
+        "treeSize": 7,
+        "mapRoot": "0xfcf4788c44a181126daf097541aae3ee0322739add9339ee99f28954d1cab519",
+        "anchoredAt": 1789619130
+      },
+      {
+        "batchId": 5,
+        "rootHash": "0xe3afbb81320c31ddbf98b4bef2099ffa569a557ba5dba39dacc9fbc8168d6dfd",
+        "treeSize": 8,
+        "mapRoot": "0xfcf4788c44a181126daf097541aae3ee0322739add9339ee99f28954d1cab519",
+        "anchoredAt": 1789619411
+      },
+      {
+        "batchId": 6,
+        "rootHash": "0xd5282055416b29a20c5c876249578bdfe16ed343f7d3f201ac943ff02f6c5bdd",
+        "treeSize": 10,
+        "mapRoot": "0x8d742beff0237a4805e9a4ad88c27b1a9448b098b018f537b4cbb27e364189e9",
+        "anchoredAt": 1789619489
+      },
+      {
+        "batchId": 7,
+        "rootHash": "0x77fc2f39a633eda6f435cbc3d548689647ed4dd641b6eb32950117de8a623a42",
+        "treeSize": 12,
+        "mapRoot": "0xcbbb422f8495db76bfa3ee068dd983090ad7f92551eedde820a128fdb442bcce",
+        "anchoredAt": 1789619498
+      },
+      {
+        "batchId": 8,
+        "rootHash": "0xdacfe67f8de018b0e66be35274810c63df5ea777cc9e424190a5e2435a6702bb",
+        "treeSize": 14,
+        "mapRoot": "0x3ec2407d9a1cf8db97681bed6983e77042de9ee126ca7f0a7829a97374dd5112",
+        "anchoredAt": 1789619522
+      },
+      {
+        "batchId": 9,
+        "rootHash": "0x983e381770e3ea25cadd71b00d83371f0a32a34200da5223f9d19b9e719d3510",
+        "treeSize": 16,
+        "mapRoot": "0x7c66849888bd8aa733532e4b02e9cdca8c74eef3e807a75b709567f080336628",
+        "anchoredAt": 1789619617
+      },
+      {
+        "batchId": 10,
+        "rootHash": "0xf66e9350845b26ddb3d0e462c089cd0440e121a8a24969f45dc01696bf3a1e59",
+        "treeSize": 18,
+        "mapRoot": "0x8e2809f11f51d50351aed7e50a2b13e8edcd0d62a8f565f49b3705e711190c6a",
+        "anchoredAt": 1789619626
+      },
+      {
+        "batchId": 11,
+        "rootHash": "0xce7df1e22d21f5d1adc718055251fee0eee5c268146817baf2ccc736583db667",
+        "treeSize": 20,
+        "mapRoot": "0xb74e64f1d36001c2513429aecde10a0820685ea4534c66d5958214f1e27388ad",
+        "anchoredAt": 1789619652
+      },
+      {
+        "batchId": 12,
+        "rootHash": "0x36e00e538f212a61f89e40b00210f43358ef32ddb0adfb864cb4e166af60141e",
+        "treeSize": 22,
+        "mapRoot": "0x5614ecf3c379a7b114cc1eee878b2b59f382c253ecfcc57b229255672f6811e6",
+        "anchoredAt": 1789619751
+      },
+      {
+        "batchId": 13,
+        "rootHash": "0xa9636b14544d65e6a9c859ebc5c12fef00ccc3f4b98261e49efb087015f4e7a6",
+        "treeSize": 24,
+        "mapRoot": "0x35a8585161502e59ab504dd3c9916761a59bc76ad5703746b155e2f0c29f39bb",
+        "anchoredAt": 1789619761
+      },
+      {
+        "batchId": 14,
+        "rootHash": "0xc8f422c47bf75cc5925c5b9396aa19574d3f9d036c3cbf764bbd9c68c58e6b82",
+        "treeSize": 26,
+        "mapRoot": "0xb956b0302f2f8aaf20d29d54f436dbe271a9ded12d1f90a486b5a1aa3b945d51",
+        "anchoredAt": 1789619787
+      },
+      {
+        "batchId": 15,
+        "rootHash": "0xbf18317522ac555e1ef3076a68c257120978153e51cc5379b0820475074a3760",
+        "treeSize": 28,
+        "mapRoot": "0x392e3b19e94b4bbcd01d29e5337e93cb2550ff648f9c3cf2220d80733b9c25f2",
+        "anchoredAt": 1789619892
+      },
+      {
+        "batchId": 16,
+        "rootHash": "0xc4d230be44f8d6ed9a6175ed54152a9f759c14744af09d135d71d7c438410fbd",
+        "treeSize": 30,
+        "mapRoot": "0x8d67055d57b608a77c01a7ac434ab372a99892e4ca8b566b33a78b0a2fe38038",
+        "anchoredAt": 1789619900
+      },
+      {
+        "batchId": 17,
+        "rootHash": "0xda998cac99173250e7680ab2dce93ff58efe02fcab6a8242a7a3c8b26cfc9f4a",
+        "treeSize": 32,
+        "mapRoot": "0x22113dfffac03ab638ec59c894df0eaa1ce6d9c015248a11dde1dbeb8b9727c8",
+        "anchoredAt": 1789619926
+      },
+      {
+        "batchId": 18,
+        "rootHash": "0xac22b1b44914323dfba64b93f2b2b84bfaa199102c398812ed4fd19570b4ba6d",
+        "treeSize": 34,
+        "mapRoot": "0xb549cb07d2203957b08286cc0c8b4f584eb72b3042359a3ebd7077c2fbd9fc62",
+        "anchoredAt": 1789620034
+      },
+      {
+        "batchId": 19,
+        "rootHash": "0x8c57291192731d0dcbff52b5a5e8f37313596242aa6d3b113cb9dfaf0520cc4a",
+        "treeSize": 36,
+        "mapRoot": "0x7f4026957ed7cbd409572d8ffb622c6fd889458d16989cc8c8278f6aedf082c8",
+        "anchoredAt": 1789620046
+      },
+      {
+        "batchId": 20,
+        "rootHash": "0x91b0151250e3d565e72a629f2be5e154f36e78e365a7fed018350614c9d4622c",
+        "treeSize": 38,
+        "mapRoot": "0x705d440ceb0ebf84ca4c694eee1b294aef70b60c59745c2fcc1bc1ea17446ce9",
+        "anchoredAt": 1789620071
+      },
+      {
+        "batchId": 21,
+        "rootHash": "0x910746108eb34ea5eee3448226c06078852292090b024e6f3c9470fdee3336e8",
+        "treeSize": 40,
+        "mapRoot": "0xeeaf5c49f08c7d0889ff300e5bb57ca07358a51cf055e7423025fb37593d9c7e",
+        "anchoredAt": 1789620179
+      },
+      {
+        "batchId": 22,
+        "rootHash": "0x2a8779f79be3242c5cc7e58093026e112a81d740f5fb6a2343eafde8fdc6a57f",
+        "treeSize": 42,
+        "mapRoot": "0x5835928cdf2a6ee137c7d1e776124b8b7234cdcf47e588ac71212c60eaea6e2a",
+        "anchoredAt": 1789620194
+      },
+      {
+        "batchId": 23,
+        "rootHash": "0x56632418497dfd3bd0ccb29e10ae9c96cf613434c59229f64fa03c4cc8061e5a",
+        "treeSize": 44,
+        "mapRoot": "0xe9962f4a98177b1a7bd438a03bd151ba01497de092f3af252577f3582e6cb3d9",
+        "anchoredAt": 1789620220
+      },
+      {
+        "batchId": 24,
+        "rootHash": "0xaf9f06aba592430857398564390c9817d2508014d1048966eff01408f3d5502b",
+        "treeSize": 46,
+        "mapRoot": "0xfa22118628027574b57562c7613caf8bc1fa41d1d59cb93f37ae3f72c938b320",
+        "anchoredAt": 1789620336
+      },
+      {
+        "batchId": 25,
+        "rootHash": "0x0dd6315faaa973f5c77a6376ec02b274d62aaed475a82ced21d3999c55fe57f5",
+        "treeSize": 48,
+        "mapRoot": "0x6b847c48d34895b0032ab446160adfeae3a689c361ef081b6d26e3445621e586",
+        "anchoredAt": 1789620351
+      },
+      {
+        "batchId": 26,
+        "rootHash": "0xcb51ce33d45f2f94430802014c245d97f8d4bcb9ddfb892c13f5fea16f922740",
+        "treeSize": 50,
+        "mapRoot": "0xd9d53d12718b9d11ece58e396cf1ce4508acfed607d96a240321e38b4d4da81c",
+        "anchoredAt": 1789620380
+      },
+      {
+        "batchId": 27,
+        "rootHash": "0xb2b1125be23b364808d16185ec21be68daa74866ab4408af405e57a7190ccacd",
+        "treeSize": 52,
+        "mapRoot": "0x47a7fda5a0930f28e23bae4eb189676747a124759533c54b533a2c2dec4cbfad",
+        "anchoredAt": 1789620501
+      },
+      {
+        "batchId": 28,
+        "rootHash": "0xce461676927d1d745f4bd7305d9a6b716d1ee1920e27b0fdf8af6d31707d20c9",
+        "treeSize": 54,
+        "mapRoot": "0x6c99325cfab838de5e2fbc44c6c735a600965294c472d176556ced5dd31fb3ff",
+        "anchoredAt": 1789620517
+      },
+      {
+        "batchId": 29,
+        "rootHash": "0xcd55e6ddf3e8530245b6cadb24daca28aca8e28bed8d98ffb8af63ce5037718c",
+        "treeSize": 56,
+        "mapRoot": "0x97757e3a083f9bfff704ebfa402b79af3ae494201a02a73307b22e8a595ea86f",
+        "anchoredAt": 1789620546
+      },
+      {
+        "batchId": 30,
+        "rootHash": "0xf263ea076115c846895eeebe6f9b223f679cb215f6bde11e7c06ad9681e356d5",
+        "treeSize": 58,
+        "mapRoot": "0x207d1b9c7ac1282f68ede34195e398e8fa49e591e53f4737029adca32df8ae04",
+        "anchoredAt": 1789620670
+      },
+      {
+        "batchId": 31,
+        "rootHash": "0xaa571bf147e2fad44831746bbd2fc73b9363eaeb174789ff56bac90945fd4fab",
+        "treeSize": 60,
+        "mapRoot": "0x0c97f651c56cba145d1d30a299e6e2c29f67788987fe8f94b67085aabc0b0e82",
+        "anchoredAt": 1789620686
+      },
+      {
+        "batchId": 32,
+        "rootHash": "0x9534e32f843fadcaaced3b876e3e10a1e08436e94b1e80da2d5f14f487db84d8",
+        "treeSize": 62,
+        "mapRoot": "0xe4a67bbe9fe04295e1d4920302fcac874e8fb4e6a4b498ecf949e8320901878c",
+        "anchoredAt": 1789620716
+      },
+      {
+        "batchId": 33,
+        "rootHash": "0xcbcf8a1cf1e88914b53ee7ee2f0eed0a0d289a8e7c109eb80f5ac5ef02543100",
+        "treeSize": 64,
+        "mapRoot": "0xd49cf354d33c7da6f22234319f4b1249ec31db40c49b8681c0a49fb4c9e92a05",
+        "anchoredAt": 1789620842
+      },
+      {
+        "batchId": 34,
+        "rootHash": "0xc24fea18aebf892ede9e45a07bf413fca1fc2bcf2fae57e66d4b90abbed3cce5",
+        "treeSize": 66,
+        "mapRoot": "0x36bf475bdbc358ceb48ccbbbc9856539eb46b586a87dfe57b591d5a6c452f102",
+        "anchoredAt": 1789620859
+      },
+      {
+        "batchId": 35,
+        "rootHash": "0xfe54b19ad1ab5e2b4bc69bb6bc7eee73bb47360c70ffe557173822013188cd88",
+        "treeSize": 68,
+        "mapRoot": "0xee0bb9620003dca432f912b27ca132badda8991afec1192a10bee486189d8867",
+        "anchoredAt": 1789620890
+      }
+    ]
+  }
+}

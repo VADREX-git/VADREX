@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "status": "success",
+  "lines": [
+    "[1/5] Revocation inclusion",
+    "  included at provider batch=1, anchoredAt=1789619019",
+    "[2/5] Provider anchor consistency",
+    "  provider consistency: verified from batch 1 to 1",
+    "[3/5] Provider SMT head and log cross-check",
+    "  provider head: 1 anchored roots keep head=0x1e26b668f67462cbe39f659418bba03630d6405357409c6749a68bba4eb6a3b6",
+    "  provider k+1: non-inclusion verified as a secondary check",
+    "  provider head-log cross-check: 2 chain entries and 2 anchored leaves reverified; revocation is terminal",
+    "[4/5] Receiver head after bounded grace",
+    "  receiver head: 1 anchors checked after grace=0s; grace-window residual risk recorded",
+    "[5/5] Final verdict",
+    "  non-transfer after revocation verified"
+  ],
+  "apiCalls": 8,
+  "rpcCalls": 4,
+  "apiRequestBytes": 714,
+  "apiResponseBytes": 60730
+}

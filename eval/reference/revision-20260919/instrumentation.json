@@ -1,0 +1,42 @@
+{
+  "note": "evaluation-only copies; the repository files under source are unchanged",
+  "tool": {
+    "eval/revision/config.ts": "df49f3ac3269ee699a8fd1a8db0cab9750b1ed198c917457042183331cedecb4",
+    "eval/revision/prepare.ts": "069f3482f4b57501d39c9f28d6cfb8ce93d8deb9cdf78f1bcf7177bee16c4519",
+    "eval/revision/run.ts": "39c51abac0bb97c9996540958efc3bb6d0a6fe607dc24aa65622a29d2030234c",
+    "eval/revision/timing.ts": "4f96dd848ec1700ced1912ff05dca7664eb7420286d515a0c51eb67a23698c47",
+    "eval/revision/timing.test.ts": "e4bfb69dc948871936fc8f4f03960e713956c74683bb71e619b829aa610893db",
+    "eval/revision/verify-timing-cli.ts": "168bbb2a78c6efc907c0c86a86ab55c42497fd7c65ff5551f5fde204361651d2",
+    "eval/revision/gas.ts": "2c449a2057cc376ef7914e9242b23e558f126b9e058db4deff09a35852e2b036",
+    "eval/revision/summarize.ts": "00fa1cc74b0ad0f6d956277d218cbf3cb6f984a0fa906e059ac5538b711f4643",
+    "eval/revision/capture-state.ts": "b9467154f7dfd7f502ea19102433bf42ac3568c072de89f8dcf1b8dd6c9f4ad2",
+    "eval/revision/check-provenance.ts": "665276337c4551d77ece821483474c42e3488d55e738d4672f06b1aa77c21544",
+    "eval/revision/README.md": "e8d916bb3481dcd17130cf09f4a22180c006694ac06013227615960f4216c0c9"
+  },
+  "workspace": {
+    "docker-compose.yml": {
+      "repository": "6f56c82aca87ab1bae6b3819506c0acc0a82216bb20f7a044a4c9f1219e49196",
+      "patched": "bd8ad1a9d725249f4c8a0065fdd0be77ec8e2ca216345d30fbc8ec20ea2afd85"
+    },
+    "contracts/hardhat.config.ts": {
+      "repository": "6656b126e7c326c1f3fdd496a37a764e4336d0241865ec10dddeea65e36190a7",
+      "patched": "19b4684cf9b5ecbaf1c6afe9f8580cef294bf7645c85e4199bb6e723f0a2da01"
+    },
+    "scripts/e2e-violation.ts": {
+      "repository": "cd6672d8c4f6d4a21b7e60ecf5339a6735cd5049e13caeb86db5bc76b1277849",
+      "patched": "1b354850ad56dbb6f7062a4fe731d19813db98341f5923f2c1d0b667f8465c1d"
+    },
+    "scripts/e2e-dispute.ts": {
+      "repository": "fe0d55b88e51283feb41379d344fb62434366385bb37da1cbd7f4121c19a1f88",
+      "patched": "82b318422ebde5e2884a4ce99797d452a1c30f9771a618214e2aaa3a1062d199"
+    },
+    "scripts/e2e-receiptless-claim.ts": {
+      "repository": "e2d48c344c7e1d36e538333720d949c9ab654f278dd76e066ab080caa139be1c",
+      "patched": "847108aa3033ce719866369f0f5a776c2f44a6e40be0c307144882b56fb254a1"
+    },
+    "scripts/demo-concealment.ts": {
+      "repository": "1a5c453b88dc7dbf2bd4efa16dba975f2d64956474fcca353babb611aac09476",
+      "patched": "7d18da5c1142a6e38e5aebad7dfd4500462e7a9520f18e44088b83fdab215613"
+    }
+  }
+}
