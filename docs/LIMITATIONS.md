@@ -83,6 +83,12 @@ The three S2 rows are not independently adjudicated. Detection is
 `(e2e:violation exit code is 0) AND (the case marker appears in the output)`, and the marker is
 printed on the success path, so the effective decision is whether the scenario as a whole succeeded.
 
+This describes the `paper` profile's attack measure, the source of `paper-v1`'s S2 rows. The
+supplementary runs under `eval/reference/revision-*` run each S2 case in its own process and assert
+the check that fails — `provider head` for the two seq cases, `provider cross-check` for the
+log-only append — so their S2 rows are adjudicated per case. The coverage limit below applies to
+both.
+
 Coverage is also partial. The injected cases are seq-skip, its `k+1` variant, and
 `no-head-update`. The case of a **delayed revocation entry** is not injected — the injection tool
 supports only `--seq` and `--no-head-update`.
